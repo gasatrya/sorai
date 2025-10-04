@@ -10,7 +10,7 @@
 	position: absolute;
 	top: 0;
 	bottom: 0;
-	width: var(--site-side-border-width, 1px);
+	width: var(--site-side-border-width, .5px);
 	background: var(--wp--preset--color--border);
 	pointer-events: none;
 	z-index: 1;
@@ -29,4 +29,16 @@
 	.wp-site-blocks::after {
 		display: none;
 	}
+}
+
+/* Make text selection use the theme primary color with a safe fallback for text color */
+::selection {
+    background: var(--wp--preset--color--primary);
+    color: var(--wp--preset--color--background, #ffffff);
+}
+
+/* Firefox-specific pseudo-element */
+::-moz-selection {
+    background: var(--wp--preset--color--primary);
+    color: var(--wp--preset--color--background, #ffffff);
 }
