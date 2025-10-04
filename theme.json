@@ -5,41 +5,53 @@
       "defaultDuotone": false,
       "defaultGradients": false,
       "defaultPalette": false,
+      "duotone": [
+				{
+					"colors": [ "#103956", "#F1F8FE" ],
+					"name": "Primary",
+					"slug": "primary"
+				}
+			],
       "palette": [
         {
-          "color": "#F1F8FE",
+          "color": "oklch(0.9756 0.011 243.65)",
           "name": "Background",
           "slug": "background"
         },
         {
-          "color": "#0D2B44",
+          "color": "oklch(0.2806 0.0582 247.05)",
           "name": "Foreground",
           "slug": "foreground"
         },
         {
-          "color": "#103956",
+          "color": "oklch(0.3319 0.068 243.67)",
           "name": "Primary",
           "slug": "primary"
         },
         {
-          "color": "#10517C",
+          "color": "oklch(0.4188 0.0945 243.84)",
           "name": "Secondary",
           "slug": "secondary"
         },
         {
-          "color": "#0F6095",
+          "color": "oklch(0.4719 0.1114 244.6)",
           "name": "Tertiary",
           "slug": "tertiary"
         },
         {
-          "color": "#1077B9",
+          "color": "oklch(0.5497 0.1329 244.87)",
           "name": "Accent",
           "slug": "accent"
         },
         {
-          "color": "#1E96D9",
-          "name": "Accent Light",
-          "slug": "accent-light"
+          "color": "oklch(0.43 0.01 246.46)",
+          "name": "Muted",
+          "slug": "muted"
+        },
+        {
+          "color": "oklch(0 0 0 / 10%)",
+          "name": "Border",
+          "slug": "border"
         }
       ]
     },
@@ -207,7 +219,7 @@
       "fontFamily": "var:preset|font-family|manrope",
       "fontSize": "var:preset|font-size|medium",
       "fontWeight": "500",
-      "lineHeight": "1.55",
+      "lineHeight": "1.35",
       "fontStyle": "normal"
     },
     "elements": {
@@ -341,7 +353,7 @@
         },
         "typography": {
           "fontSize": "var:preset|font-size|medium",
-          "fontWeight": "600"
+          "fontWeight": "650"
         }
       },
       "core/site-tagline": {
@@ -370,13 +382,16 @@
           "fontSize": "var:preset|font-size|small",
           "fontWeight": "500"
         }
+      },
+      "core/post-featured-image": {
+        "css": "& img { transition: all 500ms ease-in-out; will-change: transform; } &:hover img { filter: none !important; }"
       }
     },
     "spacing": {
       "blockGap": "1.2rem",
       "padding": {
-        "left": "var:preset|spacing|50",
-        "right": "var:preset|spacing|50"
+        "left": "var:preset|spacing|30",
+        "right": "var:preset|spacing|30"
       }
     },
     "css": ":where(.wp-site-blocks *:focus){outline-width:2px;outline-style:solid}"
