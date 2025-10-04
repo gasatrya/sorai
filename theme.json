@@ -219,7 +219,7 @@
       "fontFamily": "var:preset|font-family|manrope",
       "fontSize": "var:preset|font-size|medium",
       "fontWeight": "500",
-      "lineHeight": "1.35",
+      "lineHeight": "1.55",
       "fontStyle": "normal"
     },
     "elements": {
@@ -384,7 +384,7 @@
         }
       },
       "core/post-featured-image": {
-        "css": "& img { transition: all 500ms ease-in-out; will-change: transform; } &:hover img { filter: none !important; }"
+        "css": "&:hover img { filter: none !important; }"
       }
     },
     "spacing": {
