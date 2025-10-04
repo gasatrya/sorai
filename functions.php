@@ -27,3 +27,17 @@ if ( ! function_exists( 'sorai_enqueue_styles' ) ) :
 	}
 endif;
 add_action( 'wp_enqueue_scripts', 'sorai_enqueue_styles' );
+
+if ( ! function_exists( 'sorai_editor_style' ) ) :
+	/**
+	 * Enqueues editor-style.css in the editors.
+	 *
+	 * @since Sorai 1.0
+	 *
+	 * @return void
+	 */
+	function sorai_editor_style() {
+		add_editor_style( 'assets/css/editor-style.css' );
+	}
+endif;
+add_action( 'after_setup_theme', 'sorai_editor_style' );

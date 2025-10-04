@@ -6,12 +6,12 @@
       "defaultGradients": false,
       "defaultPalette": false,
       "duotone": [
-				{
-					"colors": [ "#103956", "#F1F8FE" ],
-					"name": "Primary",
-					"slug": "primary"
-				}
-			],
+        {
+          "colors": ["#103956", "#F1F8FE"],
+          "name": "Primary",
+          "slug": "primary"
+        }
+      ],
       "palette": [
         {
           "color": "oklch(0.9756 0.011 243.65)",
@@ -366,6 +366,7 @@
         }
       },
       "core/navigation": {
+        "css": "& a:hover { color: var(--wp--preset--color--tertiary) !important; }",
         "elements": {
           "link": {
             "color": {

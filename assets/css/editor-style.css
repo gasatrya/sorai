@@ -1,0 +1,32 @@
+.wp-site-blocks {
+	position: relative;
+  max-width: var(--wp--style--global--wide-size, 1280px);
+  margin: auto;
+}
+
+.wp-site-blocks::before,
+.wp-site-blocks::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: var(--site-side-border-width, 1px);
+	background: var(--wp--preset--color--border);
+	pointer-events: none;
+	z-index: 1;
+}
+
+.wp-site-blocks::before {
+	left: 0;
+}
+
+.wp-site-blocks::after {
+	right: 0;
+}
+
+@media (max-width: 720px) {
+	.wp-site-blocks::before,
+	.wp-site-blocks::after {
+		display: none;
+	}
+}
