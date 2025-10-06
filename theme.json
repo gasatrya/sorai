@@ -382,7 +382,7 @@
       },
       "core/site-tagline": {
         "color": {
-          "text": "var:preset|color|tertiary"
+          "text": "var:preset|color|muted"
         },
         "typography": {
           "fontSize": "var:preset|font-size|small",
@@ -424,11 +424,13 @@
   "templateParts": [
     {
       "area": "header",
-      "name": "header"
+      "name": "header",
+      "title": "Header"
     },
     {
       "area": "footer",
-      "name": "footer"
+      "name": "footer",
+      "title": "Footer"
     }
   ],
   "version": 3,
