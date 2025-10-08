@@ -1,44 +1,53 @@
+/* Make text selection use the theme primary color with a safe fallback for text color */
+::selection {
+  background: var(--wp--preset--color--primary);
+  color: var(--wp--preset--color--background, #ffffff);
+}
+
+/* Firefox-specific pseudo-element */
+::-moz-selection {
+  background: var(--wp--preset--color--primary);
+  color: var(--wp--preset--color--background, #ffffff);
+}
+
 .wp-site-blocks {
-	position: relative;
+  position: relative;
   max-width: var(--wp--style--global--wide-size, 1280px);
   margin: auto;
 }
 
 .wp-site-blocks::before,
 .wp-site-blocks::after {
-	content: "";
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	width: var(--site-side-border-width, .5px);
-	background: var(--wp--preset--color--border);
-	pointer-events: none;
-	z-index: 1;
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: var(--site-side-border-width, 0.5px);
+  background: var(--wp--preset--color--border);
+  pointer-events: none;
+  z-index: 1;
 }
 
 .wp-site-blocks::before {
-	left: 0;
+  left: 0;
 }
 
 .wp-site-blocks::after {
-	right: 0;
+  right: 0;
 }
 
 @media (max-width: 720px) {
-	.wp-site-blocks::before,
-	.wp-site-blocks::after {
-		display: none;
-	}
+  .wp-site-blocks::before,
+  .wp-site-blocks::after {
+    display: none;
+  }
 }
 
-/* Make text selection use the theme primary color with a safe fallback for text color */
-::selection {
-    background: var(--wp--preset--color--primary);
-    color: var(--wp--preset--color--background, #ffffff);
+.wp-block-query-pagination-numbers .page-numbers.current {
+  font-weight: 600;
 }
 
-/* Firefox-specific pseudo-element */
-::-moz-selection {
-    background: var(--wp--preset--color--primary);
-    color: var(--wp--preset--color--background, #ffffff);
+.wp-block-query-pagination-previous,
+.wp-block-query-pagination-next {
+  font-size: var(--wp--preset--font-size--small);
 }

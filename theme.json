@@ -14,42 +14,42 @@
       ],
       "palette": [
         {
-          "color": "oklch(0.9756 0.011 243.65)",
+          "color": "#F1F8FE",
           "name": "Background",
           "slug": "background"
         },
         {
-          "color": "oklch(0.2806 0.0582 247.05)",
+          "color": "#0D2B44",
           "name": "Foreground",
           "slug": "foreground"
         },
         {
-          "color": "oklch(0.3319 0.068 243.67)",
+          "color": "#103956",
           "name": "Primary",
           "slug": "primary"
         },
         {
-          "color": "oklch(0.4188 0.0945 243.84)",
+          "color": "#10517C",
           "name": "Secondary",
           "slug": "secondary"
         },
         {
-          "color": "oklch(0.4719 0.1114 244.6)",
+          "color": "#0f6095",
           "name": "Tertiary",
           "slug": "tertiary"
         },
         {
-          "color": "oklch(0.5497 0.1329 244.87)",
+          "color": "#1077b9",
           "name": "Accent",
           "slug": "accent"
         },
         {
-          "color": "oklch(0.43 0.01 246.46)",
+          "color": "#4b5055",
           "name": "Muted",
           "slug": "muted"
         },
         {
-          "color": "oklch(0 0 0 / 10%)",
+          "color": "rgba(0, 0, 0, 0.1)",
           "name": "Border",
           "slug": "border"
         }

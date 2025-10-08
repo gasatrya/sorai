@@ -14,6 +14,18 @@ Text Domain: sorai
 Tags: 
 */
 
+/* Make text selection use the theme primary color with a safe fallback for text color */
+::selection {
+  background: var(--wp--preset--color--primary);
+  color: var(--wp--preset--color--background, #ffffff);
+}
+
+/* Firefox-specific pseudo-element */
+::-moz-selection {
+  background: var(--wp--preset--color--primary);
+  color: var(--wp--preset--color--background, #ffffff);
+}
+
 .wp-site-blocks {
   position: relative;
   max-width: var(--wp--style--global--wide-size, 1280px);
@@ -55,10 +67,10 @@ Tags:
 }
 
 @media (min-width: 721px) {
-  .wp-block-navigation a,
-  .wp-block-navigation__container a,
-  .wp-block-navigation .wp-block-navigation__item a,
-  .wp-block-navigation .wp-block-navigation-link {
+  .wp-block-navigation
+    .wp-block-navigation-item__content:not(
+      .wp-block-navigation-submenu .wp-block-navigation-item__content
+    ) {
     position: relative;
     display: inline-block; /* ensures pseudo-element sizing and transform behave consistently */
     text-decoration: none;
@@ -68,10 +80,7 @@ Tags:
     --nav-underline-gap: 0.28em; /* space between text baseline and underline */
   }
 
-  .wp-block-navigation a::after,
-  .wp-block-navigation__container a::after,
-  .wp-block-navigation .wp-block-navigation__item a::after,
-  .wp-block-navigation .wp-block-navigation-link::after {
+  .wp-block-navigation__container a::after {
     content: '';
     position: absolute;
     left: 0;
@@ -85,40 +94,19 @@ Tags:
     pointer-events: none;
   }
 
-  .wp-block-navigation a:hover::after,
-  .wp-block-navigation a:focus::after,
-  .wp-block-navigation a:active::after,
   .wp-block-navigation__container a:hover::after,
   .wp-block-navigation__container a:focus::after,
-  .wp-block-navigation__container a:active::after,
-  .wp-block-navigation .wp-block-navigation__item a:hover::after,
-  .wp-block-navigation .wp-block-navigation__item a:focus::after,
-  .wp-block-navigation .wp-block-navigation__item a:active::after {
+  .wp-block-navigation__container a:active::after {
     transform: scaleX(1);
   }
 }
 
 @media (min-width: 721px) and (prefers-reduced-motion: reduce) {
-  .wp-block-navigation a::after,
-  .wp-block-navigation__container a::after,
-  .wp-block-navigation .wp-block-navigation__item a::after,
-  .wp-block-navigation .wp-block-navigation-link::after {
+  .wp-block-navigation__container a::after {
     transition: none;
     transform: none;
     opacity: 1;
   }
-}
-
-/* Make text selection use the theme primary color with a safe fallback for text color */
-::selection {
-  background: var(--wp--preset--color--primary);
-  color: var(--wp--preset--color--background, #ffffff);
-}
-
-/* Firefox-specific pseudo-element */
-::-moz-selection {
-  background: var(--wp--preset--color--primary);
-  color: var(--wp--preset--color--background, #ffffff);
 }
 
 .wp-block-query-pagination-numbers {
