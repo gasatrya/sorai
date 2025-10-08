@@ -41,3 +41,43 @@ if ( ! function_exists( 'sorai_editor_style' ) ) :
 	}
 endif;
 add_action( 'after_setup_theme', 'sorai_editor_style' );
+
+/**
+ * Register block styles.
+ */
+
+if ( ! function_exists( 'sorai_block_styles' ) ) :
+	/**
+	 * Register custom block styles
+	 *
+	 * @since Sorai 1.0
+	 * 
+	 * @return void
+	 */
+	function sorai_block_styles() {
+
+		register_block_style(
+			'core/heading',
+			array(
+				'name'         => 'with-border',
+				'label'        => __( 'With border', 'sorai' ),
+				'inline_style' => "
+				.is-style-with-border {
+					border-top: .5px solid var(--wp--preset--color--border);
+					padding-top: var(--wp--preset--spacing--10);
+					color: var(--wp--preset--color--muted);
+					text-transform: uppercase;
+					letter-spacing: 0.025em;
+				}
+
+				.wp-block-heading.is-style-with-border {
+					font-size: var(--wp--preset--font-size--small);
+					margin-bottom: var(--wp--preset--spacing--30);
+				}
+				",
+			)
+		);
+	}
+endif;
+
+add_action( 'init', 'sorai_block_styles' );
