@@ -424,6 +424,20 @@
         "border": {
           "width": ".5px"
         }
+      },
+      "core/read-more": {
+        "typography": {
+          "fontSize": "var:preset|font-size|small",
+          "fontWeight": "500"
+        },
+        "border": {
+          "bottom": {
+            "width": "2px",
+            "style": "solid",
+            "color": "var:preset|color|border"
+          }
+        },
+        "css": "{transition: border 200ms ease-in-out;} &:hover { border-color: var(--wp--preset--color--tertiary) !important; } &::after { content: '→'; margin-left: 0.5em; transition: margin-left 200ms ease-in-out; } &:hover::after { margin-left: 0.75em; }"
       }
     },
     "spacing": {
