@@ -37,7 +37,7 @@ if ( ! function_exists( 'sorai_editor_style' ) ) :
 	 * @return void
 	 */
 	function sorai_editor_style() {
-		add_editor_style( 'assets/css/editor-style.css' );
+		add_editor_style( 'style.css' );
 	}
 endif;
 add_action( 'after_setup_theme', 'sorai_editor_style' );
@@ -59,8 +59,8 @@ if ( ! function_exists( 'sorai_block_styles' ) ) :
 		register_block_style(
 			'core/heading',
 			array(
-				'name'         => 'with-border',
-				'label'        => __( 'With border', 'sorai' ),
+				'name' => 'with-border',
+				'label' => __( 'With border', 'sorai' ),
 				'inline_style' => "
 				.is-style-with-border {
 					border-top: .5px solid var(--wp--preset--color--border);

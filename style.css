@@ -35,7 +35,7 @@ Tags:
 /* Create left and right vertical borders without affecting layout or pointer events */
 .wp-site-blocks::before,
 .wp-site-blocks::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   bottom: 0;
@@ -61,48 +61,35 @@ Tags:
 }
 
 /* Allow overriding via inline style --site-side-border: none; */
-.wp-site-blocks[style*='--site-side-border: none']::before,
-.wp-site-blocks[style*='--site-side-border: none']::after {
+.wp-site-blocks[style*="--site-side-border: none"]::before,
+.wp-site-blocks[style*="--site-side-border: none"]::after {
   display: none;
 }
 
-@media (min-width: 721px) {
-  .wp-block-navigation
+@media (min-width: 768px) {
+  header
+    .wp-block-navigation
     .wp-block-navigation-item__content:not(
       .wp-block-navigation-submenu .wp-block-navigation-item__content
     ) {
-    position: relative;
-    display: inline-block; /* ensures pseudo-element sizing and transform behave consistently */
-    text-decoration: none;
-    /* variables you can override: */
-    --nav-underline-color: var(--wp--preset--color--tertiary, currentColor);
-    --nav-underline-height: 1.5px;
-    --nav-underline-gap: 0.28em; /* space between text baseline and underline */
+    border-bottom-color: var(--wp--preset--color--border);
+    border-bottom-width: 0.1rem;
+    border-bottom-style: solid;
+    transition: border 200ms ease-in-out;
+    padding-bottom: 0.1rem;
   }
 
-  .wp-block-navigation__container a::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: calc(-1 * var(--nav-underline-gap));
-    height: var(--nav-underline-height);
-    width: 100%;
-    background: var(--nav-underline-color);
-    transform: scaleX(0);
-    transform-origin: left center;
-    transition: transform 260ms cubic-bezier(0.4, 0, 0.2, 1);
-    pointer-events: none;
-  }
-
-  .wp-block-navigation__container a:hover::after,
-  .wp-block-navigation__container a:focus::after,
-  .wp-block-navigation__container a:active::after {
-    transform: scaleX(1);
+  header
+    .wp-block-navigation
+    .wp-block-navigation-item__content:not(
+      .wp-block-navigation-submenu .wp-block-navigation-item__content
+    ):hover {
+    border-bottom-color: var(--wp--preset--color--tertiary);
   }
 }
 
 @media (min-width: 721px) and (prefers-reduced-motion: reduce) {
-  .wp-block-navigation__container a::after {
+  header .wp-block-navigation .wp-block-navigation-item__content {
     transition: none;
     transform: none;
     opacity: 1;
