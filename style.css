@@ -88,6 +88,10 @@ Tags:
   }
 }
 
+footer .wp-block-navigation .wp-block-navigation-item__content:hover {
+  color: var(--wp--preset--color--background) !important;
+}
+
 @media (min-width: 721px) and (prefers-reduced-motion: reduce) {
   header .wp-block-navigation .wp-block-navigation-item__content {
     transition: none;

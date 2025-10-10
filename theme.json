@@ -49,6 +49,11 @@
           "slug": "muted"
         },
         {
+          "color": "#c6d3de",
+          "name": "Muted Light",
+          "slug": "muted-light"
+        },
+        {
           "color": "rgba(0, 0, 0, 0.1)",
           "name": "Border",
           "slug": "border"
