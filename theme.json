@@ -130,65 +130,95 @@
         {
           "fluid": false,
           "name": "Tiny",
-          "size": "0.7rem",
+          "size": "0.877rem",
           "slug": "tiny"
         },
         {
           "fluid": false,
           "name": "Small",
-          "size": "0.88rem",
+          "size": "1.055rem",
           "slug": "small"
         },
         {
           "fluid": false,
+          "name": "Normal",
+          "size": "1.125rem",
+          "slug": "normal"
+        },
+        {
+          "fluid": false,
           "name": "Medium",
-          "size": "1rem",
+          "size": "1.2rem",
           "slug": "medium"
         },
         {
-          "fluid": {
-            "min": "1.13rem",
-            "max": "1.25rem"
-          },
+          "fluid": false,
           "name": "Large",
-          "size": "1.25rem",
+          "size": "1.281rem",
           "slug": "large"
         },
         {
           "fluid": {
-            "min": "1.25rem",
-            "max": "1.56rem"
+            "min": "1.281rem",
+            "max": "1.367rem"
           },
           "name": "Extra Large",
-          "size": "1.56rem",
+          "size": "1.367rem",
           "slug": "x-large"
         },
         {
           "fluid": {
-            "min": "1.56rem",
-            "max": "1.95rem"
+            "min": "1.367rem",
+            "max": "1.459rem"
           },
-          "name": "Extra Extra Large",
-          "size": "1.95rem",
+          "name": "2X Large",
+          "size": "1.459rem",
           "slug": "xx-large"
         },
         {
           "fluid": {
-            "min": "1.95rem",
-            "max": "2.44rem"
+            "min": "1.459rem",
+            "max": "1.557rem"
           },
-          "name": "Huge",
-          "size": "2.44rem",
-          "slug": "huge"
+          "name": "3X Large",
+          "size": "1.557rem",
+          "slug": "xxx-large"
         },
         {
           "fluid": {
-            "min": "2.44rem",
-            "max": "3.05rem"
+            "min": "1.557rem",
+            "max": "1.661rem"
           },
-          "name": "Gigantic",
-          "size": "3.05rem",
-          "slug": "gigantic"
+          "name": "4X Large",
+          "size": "1.661rem",
+          "slug": "xxxx-large"
+        },
+        {
+          "fluid": {
+            "min": "1.661rem",
+            "max": "1.772rem"
+          },
+          "name": "5X Large",
+          "size": "1.772rem",
+          "slug": "xxxxx-large"
+        },
+        {
+          "fluid": {
+            "min": "1.772rem",
+            "max": "2.281rem"
+          },
+          "name": "Display Small",
+          "size": "2.281rem",
+          "slug": "display-small"
+        },
+        {
+          "fluid": {
+            "min": "2.281rem",
+            "max": "2.434rem"
+          },
+          "name": "Display Large",
+          "size": "2.434rem",
+          "slug": "display-large"
         }
       ]
     },
@@ -246,7 +276,7 @@
     },
     "typography": {
       "fontFamily": "var:preset|font-family|manrope",
-      "fontSize": "var:preset|font-size|medium",
+      "fontSize": "var:preset|font-size|normal",
       "fontWeight": "500",
       "lineHeight": "1.55",
       "fontStyle": "normal"
@@ -264,33 +294,33 @@
       },
       "h1": {
         "typography": {
-          "fontSize": "var:preset|font-size|gigantic",
+          "fontSize": "var:preset|font-size|xxxxx-large",
           "lineHeight": "1.15"
         }
       },
       "h2": {
         "typography": {
-          "fontSize": "var:preset|font-size|huge"
+          "fontSize": "var:preset|font-size|xxxx-large"
         }
       },
       "h3": {
         "typography": {
-          "fontSize": "var:preset|font-size|xx-large"
+          "fontSize": "var:preset|font-size|xxx-large"
         }
       },
       "h4": {
         "typography": {
-          "fontSize": "var:preset|font-size|x-large"
+          "fontSize": "var:preset|font-size|xx-large"
         }
       },
       "h5": {
         "typography": {
-          "fontSize": "var:preset|font-size|large"
+          "fontSize": "var:preset|font-size|x-large"
         }
       },
       "h6": {
         "typography": {
-          "fontSize": "var:preset|font-size|medium"
+          "fontSize": "var:preset|font-size|large"
         }
       },
       "heading": {
@@ -390,7 +420,7 @@
           "text": "var:preset|color|muted"
         },
         "typography": {
-          "fontSize": "var:preset|font-size|small",
+          "fontSize": "var:preset|font-size|tiny",
           "fontWeight": "400"
         }
       },
@@ -409,7 +439,7 @@
           }
         },
         "typography": {
-          "fontSize": "var:preset|font-size|small",
+          "fontSize": "var:preset|font-size|tiny",
           "fontWeight": "550"
         }
       },
@@ -432,7 +462,7 @@
       },
       "core/read-more": {
         "typography": {
-          "fontSize": "var:preset|font-size|small",
+          "fontSize": "var:preset|font-size|tiny",
           "fontWeight": "550"
         },
         "border": {
@@ -446,7 +476,7 @@
       },
       "core/query-pagination-next": {
         "typography": {
-          "fontSize": "var:preset|font-size|small",
+          "fontSize": "var:preset|font-size|tiny",
           "fontWeight": "550"
         },
         "border": {
@@ -460,7 +490,7 @@
       },
       "core/query-pagination-previous": {
         "typography": {
-          "fontSize": "var:preset|font-size|small",
+          "fontSize": "var:preset|font-size|tiny",
           "fontWeight": "550"
         },
         "border": {
@@ -474,7 +504,7 @@
       },
       "core/query-pagination-numbers": {
         "typography": {
-          "fontSize": "var:preset|font-size|small",
+          "fontSize": "var:preset|font-size|tiny",
           "fontWeight": "550"
         }
       }

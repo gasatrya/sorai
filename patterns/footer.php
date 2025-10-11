@@ -8,13 +8,24 @@
  */
 ?>
 
+<!-- wp:spacer {"height":"var:preset|spacing|30"} -->
+<div style="height: var(--wp--preset--spacing--30)" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}},"border":{"top":{"color":"var:preset|color|border","width":"1px"},"right":[],"bottom":[],"left":[]},"elements":{"link":{"color":{"text":"var:preset|color|background"}}}},"backgroundColor":"foreground","textColor":"background","layout":{"type":"constrained"}} -->
 <div class="wp-block-group has-background-color has-foreground-background-color has-text-color has-background has-link-color"
-	style="border-top-color:var(--wp--preset--color--border);border-top-width:1px;padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30)">
+	style="
+	border-top-color: var(--wp--preset--color--border);
+	border-top-width: 1px;
+	padding-top: var(--wp--preset--spacing--30);
+	padding-bottom: var(--wp--preset--spacing--30);
+	">
 	<!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
-	<div class="wp-block-group alignwide"><!-- wp:columns {"align":"wide"} -->
-		<div class="wp-block-columns alignwide"><!-- wp:column {"width":"35%"} -->
-			<div class="wp-block-column" style="flex-basis:35%">
+	<div class="wp-block-group alignwide">
+		<!-- wp:columns {"align":"wide"} -->
+		<div class="wp-block-columns alignwide">
+			<!-- wp:column {"width":"35%"} -->
+			<div class="wp-block-column" style="flex-basis: 35%">
 				<!-- wp:group {"style":{"dimensions":{"minHeight":""},"layout":{"selfStretch":"fit","flexSize":null},"spacing":{"blockGap":"var:preset|spacing|5"}},"layout":{"type":"flex","orientation":"vertical"}} -->
 				<div class="wp-block-group">
 					<!-- wp:site-logo {"width":20,"shouldSyncIcon":true,"style":{"layout":{"selfStretch":"fit","flexSize":null}}} /-->
@@ -28,18 +39,18 @@
 			<!-- /wp:column -->
 
 			<!-- wp:column {"width":"25%"} -->
-			<div class="wp-block-column" style="flex-basis:25%"></div>
+			<div class="wp-block-column" style="flex-basis: 25%"></div>
 			<!-- /wp:column -->
 
 			<!-- wp:column {"width":"40%"} -->
-			<div class="wp-block-column" style="flex-basis:40%">
+			<div class="wp-block-column" style="flex-basis: 40%">
 				<!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between","verticalAlignment":"top"}} -->
 				<div class="wp-block-group">
 					<!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
 					<div class="wp-block-group">
-						<!-- wp:heading {"level":3,"className":"has-medium-font-size","style":{"typography":{"fontStyle":"normal","fontWeight":"600"},"elements":{"link":{"color":{"text":"var:preset|color|background"}}}},"textColor":"background"} -->
-						<h3 class="wp-block-heading has-medium-font-size has-background-color has-text-color has-link-color"
-							style="font-style:normal;font-weight:600">
+						<!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|background"}}}},"textColor":"background","fontSize":"normal"} -->
+						<h3
+							class="wp-block-heading has-background-color has-text-color has-link-color has-normal-font-size">
 							<?php esc_html_e( 'About', 'sorai' ); ?>
 						</h3>
 						<!-- /wp:heading -->
@@ -54,9 +65,9 @@
 
 					<!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
 					<div class="wp-block-group">
-						<!-- wp:heading {"level":3,"className":"has-medium-font-size","style":{"typography":{"fontStyle":"normal","fontWeight":"600"},"elements":{"link":{"color":{"text":"var:preset|color|background"}}}},"textColor":"background"} -->
-						<h3 class="wp-block-heading has-medium-font-size has-background-color has-text-color has-link-color"
-							style="font-style:normal;font-weight:600">
+						<!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"600"},"elements":{"link":{"color":{"text":"var:preset|color|background"}}}},"textColor":"background","fontSize":"normal"} -->
+						<h3 class="wp-block-heading has-background-color has-text-color has-link-color has-normal-font-size"
+							style="font-style: normal; font-weight: 600">
 							<?php esc_html_e( 'Social', 'sorai' ); ?>
 						</h3>
 						<!-- /wp:heading -->
@@ -71,9 +82,9 @@
 
 					<!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
 					<div class="wp-block-group">
-						<!-- wp:heading {"level":3,"className":"has-medium-font-size","style":{"typography":{"fontStyle":"normal","fontWeight":"600"},"elements":{"link":{"color":{"text":"var:preset|color|background"}}}},"textColor":"background"} -->
-						<h3 class="wp-block-heading has-medium-font-size has-background-color has-text-color has-link-color"
-							style="font-style:normal;font-weight:600">
+						<!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"600"},"elements":{"link":{"color":{"text":"var:preset|color|background"}}}},"textColor":"background","fontSize":"normal"} -->
+						<h3 class="wp-block-heading has-background-color has-text-color has-link-color has-normal-font-size"
+							style="font-style: normal; font-weight: 600">
 							<?php esc_html_e( 'Privacy', 'sorai' ); ?>
 						</h3>
 						<!-- /wp:heading -->
@@ -93,13 +104,13 @@
 		<!-- /wp:columns -->
 
 		<!-- wp:spacer {"height":"var:preset|spacing|30"} -->
-		<div style="height:var(--wp--preset--spacing--30)" aria-hidden="true" class="wp-block-spacer"></div>
+		<div style="height: var(--wp--preset--spacing--30)" aria-hidden="true" class="wp-block-spacer"></div>
 		<!-- /wp:spacer -->
 
 		<!-- wp:group {"align":"wide"} -->
 		<div class="wp-block-group alignwide">
-			<!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"400"}},"fontSize":"small"} -->
-			<p class="has-small-font-size" style="font-style:normal;font-weight:400">
+			<!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"400"}},"fontSize":"tiny"} -->
+			<p class="has-tiny-font-size" style="font-style: normal; font-weight: 400">
 				<?php
 				/* Translators: WordPress link. */
 				$wordpress_link = '<a href="' . esc_url( __( 'https://wordpress.org', 'twentytwentyfour' ) ) . '" rel="nofollow">WordPress</a>';

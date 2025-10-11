@@ -12,11 +12,11 @@
 <div class="wp-block-group" style="
 	border-bottom-color: var(--wp--preset--color--border);
 	border-bottom-width: 1px;
-  ">
+	">
 	<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"bottom":"var:preset|spacing|20","top":"var:preset|spacing|20"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
 	<div class="wp-block-group alignwide" style="
-	  padding-top: var(--wp--preset--spacing--20);
-	  padding-bottom: var(--wp--preset--spacing--20);
+		padding-top: var(--wp--preset--spacing--20);
+		padding-bottom: var(--wp--preset--spacing--20);
 	">
 		<!-- wp:group {"style":{"layout":{"selfStretch":"fit"},"spacing":{"blockGap":"var:preset|spacing|5"}},"layout":{"type":"flex"}} -->
 		<div class="wp-block-group">
