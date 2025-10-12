@@ -72,7 +72,7 @@ Tags:
     .wp-block-navigation-item__content:not(
       .wp-block-navigation-submenu .wp-block-navigation-item__content
     ) {
-    border-bottom-color: var(--wp--preset--color--border);
+    border-bottom-color: transparent;
     border-bottom-width: 0.1rem;
     border-bottom-style: solid;
     transition: border 200ms ease-in-out;

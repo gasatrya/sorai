@@ -277,8 +277,8 @@
     "typography": {
       "fontFamily": "var:preset|font-family|manrope",
       "fontSize": "var:preset|font-size|normal",
-      "fontWeight": "500",
-      "lineHeight": "1.55",
+      "fontWeight": "450",
+      "lineHeight": "1.65",
       "fontStyle": "normal"
     },
     "elements": {
