@@ -384,6 +384,10 @@
     },
     "blocks": {
       "core/post-title": {
+        "typography": {
+          "fontSize": "var:preset|font-size|display-small",
+          "lineHeight": "1.15"
+        },
         "elements": {
           "link": {
             "color": {
@@ -507,6 +511,36 @@
           "fontSize": "var:preset|font-size|tiny",
           "fontWeight": "550"
         }
+      },
+      "core/post-excerpt": {
+        "typography": {
+          "fontSize": "var:preset|font-size|small",
+          "lineHeight": "1.6"
+        },
+        "color": {
+          "text": "var:preset|color|muted"
+        }
+      },
+      "core/post-date": {
+        "typography": {
+          "fontSize": "var:preset|font-size|tiny",
+          "fontWeight": "400",
+          "fontStyle": "normal"
+        },
+        "color": {
+          "text": "var:preset|color|muted"
+        }
+      },
+      "core/post-author": {
+        "typography": {
+          "fontSize": "var:preset|font-size|tiny",
+          "fontWeight": "400",
+          "fontStyle": "normal"
+        },
+        "color": {
+          "text": "var:preset|color|muted"
+        },
+        "css": "{ align-items: center } & img { display: block; border-radius: 50%; width: 2rem; height: 2rem; object-fit: cover; } & .wp-block-post-author__avatar { margin-right: 0.75rem; }"
       }
     },
     "spacing": {
