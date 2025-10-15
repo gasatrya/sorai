@@ -276,7 +276,7 @@
     },
     "typography": {
       "fontFamily": "var:preset|font-family|manrope",
-      "fontSize": "var:preset|font-size|normal",
+      "fontSize": "var:preset|font-size|small",
       "fontWeight": "450",
       "lineHeight": "1.65",
       "fontStyle": "normal"
@@ -552,14 +552,14 @@
         },
         "spacing": {
           "padding": {
-            "bottom": "var(--wp--preset--spacing--20)",
-            "left": "var(--wp--preset--spacing--20)",
-            "right": "var(--wp--preset--spacing--20)",
-            "top": "var(--wp--preset--spacing--20)"
+            "bottom": "var(--wp--preset--spacing--10)",
+            "left": "var(--wp--preset--spacing--10)",
+            "right": "var(--wp--preset--spacing--10)",
+            "top": "var(--wp--preset--spacing--10)"
           }
         },
         "typography": {
-          "fontSize": "var(--wp--preset--font-size--medium)",
+          "fontSize": "var(--wp--preset--font-size--small)",
           "fontStyle": "normal",
           "fontWeight": "400",
           "lineHeight": "1.6"

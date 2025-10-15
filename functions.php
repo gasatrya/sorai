@@ -59,8 +59,8 @@ if ( ! function_exists( 'sorai_block_styles' ) ) :
 		register_block_style(
 			'core/heading',
 			array(
-				'name'         => 'with-border',
-				'label'        => __( 'With border', 'sorai' ),
+				'name' => 'with-border',
+				'label' => __( 'With border', 'sorai' ),
 				'inline_style' => '
 				.is-style-with-border {
 					border-top: .5px solid var(--wp--preset--color--border);
@@ -79,5 +79,29 @@ if ( ! function_exists( 'sorai_block_styles' ) ) :
 		);
 	}
 endif;
-
 add_action( 'init', 'sorai_block_styles' );
+
+/**
+ * Register pattern categories.
+ */
+
+if ( ! function_exists( 'sorai_pattern_categories' ) ) :
+	/**
+	 * Register pattern categories
+	 *
+	 * @since Sorai 1.0
+	 * @return void
+	 */
+	function sorai_pattern_categories() {
+
+		register_block_pattern_category(
+			'sorai-posts',
+			array(
+				'label' => _x( 'Posts', 'Block pattern category', 'sorai' ),
+				'description' => __( 'A collection of posts patterns.', 'sorai' ),
+			)
+		);
+	}
+endif;
+
+add_action( 'init', 'sorai_pattern_categories' );
