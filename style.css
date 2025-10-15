@@ -26,6 +26,10 @@ Tags:
   color: var(--wp--preset--color--background, #ffffff);
 }
 
+strong {
+  font-weight: 600;
+}
+
 .wp-site-blocks {
   position: relative;
   max-width: var(--wp--style--global--wide-size, 1280px);
