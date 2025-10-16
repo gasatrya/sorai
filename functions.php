@@ -77,6 +77,28 @@ if ( ! function_exists( 'sorai_block_styles' ) ) :
 				',
 			)
 		);
+
+		register_block_style(
+			'core/post-terms',
+			array(
+				'name' => 'hash',
+				'label' => __( 'Hash', 'sorai' ),
+				/*
+				 * Styles variation for post terms
+				 * https://github.com/WordPress/gutenberg/issues/24956
+				 */
+				'inline_style' => '
+				.is-style-hash a,
+				.is-style-hash span:not([class], [data-rich-text-placeholder]) {
+					padding: 0 0.5rem;
+				}
+
+				.is-style-hash a::before,
+				.is-style-hash span:not([class], [data-rich-text-placeholder])::before {
+					content: "#";
+				}',
+			)
+		);
 	}
 endif;
 add_action( 'init', 'sorai_block_styles' );
