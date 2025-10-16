@@ -2,11 +2,19 @@
 
 <!-- wp:group {"tagName":"main","metadata":{"name":"Main"},"layout":{"type":"constrained"}} -->
 <main class="wp-block-group">
-  <!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
+  <!-- wp:group {"metadata":{"name":"Archive Title"},"align":"wide","layout":{"type":"constrained"}} -->
   <div class="wp-block-group alignwide">
-    <!-- wp:query-title {"type":"archive","textAlign":"center"} /-->
+    <!-- wp:query-title {"type":"archive","textAlign":"left","align":"wide","fontSize":"xxxxx-large"} /-->
   </div>
   <!-- /wp:group -->
+
+  <!-- wp:spacer {"height":"var:preset|spacing|30"} -->
+  <div
+    style="height: var(--wp--preset--spacing--30)"
+    aria-hidden="true"
+    class="wp-block-spacer"
+  ></div>
+  <!-- /wp:spacer -->
 
   <!-- wp:pattern {"slug":"sorai/posts-grid-3-columns"} /-->
 </main>

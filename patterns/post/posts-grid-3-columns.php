@@ -2,19 +2,17 @@
 /**
  * Title: Grid of posts, 3 columns
  * Slug: sorai/posts-grid-3-columns
- * Categories: sorai-posts
+ * Categories: sorai-post
  * Block Types: core/query
  * Description: A grid of posts, 3 columns.
  */
 ?>
 
-<!-- wp:group {"metadata":{"name":"Posts"},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
-	<div class="wp-block-group alignwide"><!-- wp:heading {"align":"wide","className":"is-style-with-border"} -->
-		<h2 class="wp-block-heading alignwide is-style-with-border"><?php esc_html_e( 'Latest Posts', 'sorai' ); ?></h2>
-		<!-- /wp:heading -->
+<!-- wp:group {"metadata":{"name":"Posts"},"align":"wide","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignwide"><!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
+	<div class="wp-block-group alignwide">
 
-		<!-- wp:query {"query":{"perPage":9,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true},"metadata":{"categories":["posts"],"patternName":"core/query-grid-posts","name":"Grid"},"align":"wide"} -->
+		<!-- wp:query {"query":{"perPage":10,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true},"metadata":{"categories":["posts"],"patternName":"core/query-grid-posts","name":"Grid"},"align":"wide"} -->
 		<div class="wp-block-query alignwide">
 			<!-- wp:post-template {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"grid","columnCount":3,"minimumColumnWidth":null}} -->
 			<!-- wp:group {"style":{"spacing":{"padding":{"bottom":"var:preset|spacing|10","left":"0"}}},"layout":{"inherit":false}} -->

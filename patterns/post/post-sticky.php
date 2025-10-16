@@ -2,14 +2,14 @@
 /**
  * Title: Sticky post, featured image and excerpt
  * Slug: sorai/post-sticky
- * Categories: sorai-posts
+ * Categories: sorai-post
  * Block Types: core/query
  * Description: A post sticky with featured image and excerpt.
  */
 ?>
 
-<!-- wp:group {"metadata":{"name":"Sticky Post"},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:group {"align":"full","layout":{"type":"constrained"}} -->
+<!-- wp:group {"metadata":{"name":"Sticky Post"},"align":"full","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull"><!-- wp:group {"align":"full","layout":{"type":"constrained"}} -->
 	<div class="wp-block-group alignfull">
 		<!-- wp:query {"query":{"perPage":1,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"only","inherit":false,"parents":[],"format":[]},"align":"full"} -->
 		<div class="wp-block-query alignfull"><!-- wp:post-template {"layout":{"type":"default","columnCount":3}} -->

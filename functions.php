@@ -95,10 +95,18 @@ if ( ! function_exists( 'sorai_pattern_categories' ) ) :
 	function sorai_pattern_categories() {
 
 		register_block_pattern_category(
-			'sorai-posts',
+			'sorai-post',
 			array(
 				'label' => _x( 'Posts', 'Block pattern category', 'sorai' ),
 				'description' => __( 'A collection of posts patterns.', 'sorai' ),
+			)
+		);
+
+		register_block_pattern_category(
+			'sorai-page',
+			array(
+				'label' => _x( 'Pages', 'Block pattern category', 'sorai' ),
+				'description' => __( 'A collection of full page layouts.', 'sorai' ),
 			)
 		);
 	}
