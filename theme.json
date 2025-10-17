@@ -54,6 +54,11 @@
           "slug": "muted-light"
         },
         {
+          "color": "#ffffff",
+          "name": "White",
+          "slug": "white"
+        },
+        {
           "color": "rgba(0, 0, 0, 0.1)",
           "name": "Border",
           "slug": "border"
@@ -284,10 +289,10 @@
     "elements": {
       "caption": {
         "color": {
-          "text": "var:preset|color|tertiary"
+          "text": "var:preset|color|muted"
         },
         "typography": {
-          "fontSize": "var:preset|font-size|small",
+          "fontSize": "var:preset|font-size|tiny",
           "fontStyle": "italic",
           "lineHeight": "1.4"
         }
@@ -601,7 +606,23 @@
         "css": "& a { color: var(--wp--preset--color--accent); font-size: var(--wp--preset--font-size--tiny) } & a:hover { color: var(--wp--preset--color--tertiary) !important; }"
       },
       "core/post-comments-form": {
-        "css": "& textarea, input[type='text'], input[type='email'], input[type='url'] { border: 1px solid var(--wp--preset--color--border); background: var(--wp--preset--color--background); padding: 0.5em; } & label { font-weight: 550; font-size: var(--wp--preset--font-size--tiny); } & .comment-notes, .logged-in-as { font-size: var(--wp--preset--font-size--tiny); color: var(--wp--preset--color--muted); margin-top: 0.25rem; }"
+        "css": "& textarea, input[type='text'], input[type='email'], input[type='url'] { border: 1px solid var(--wp--preset--color--border); background: var(--wp--preset--color--white); padding: 0.5em; } & label { font-weight: 550; font-size: var(--wp--preset--font-size--tiny); } & .comment-notes, .logged-in-as { font-size: var(--wp--preset--font-size--tiny); color: var(--wp--preset--color--muted); margin-top: 0.25rem; }"
+      },
+      "core/comments-pagination": {
+        "typography": {
+          "fontSize": "var:preset|font-size|tiny"
+        }
+      },
+      "core/comments-pagination-numbers": {
+        "css": " display: flex; gap: 0.5rem; "
+      },
+      "core/footnotes": {
+        "typography": {
+          "fontSize": "var(--wp--preset--font-size--tiny)"
+        }
+      },
+      "core/search": {
+        "css": " & input[type='search'] { border: 1px solid var(--wp--preset--color--border); background: var(--wp--preset--color--white); padding: 0.5em; width: 100%; font-size: var(--wp--preset--font-size--tiny) } & .wp-block-search__label { font-weight: 550; font-size: var(--wp--preset--font-size--tiny); margin-bottom: 0.25rem; display: block;"
       }
     },
     "spacing": {
