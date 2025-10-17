@@ -88,9 +88,9 @@ if ( ! function_exists( 'sorai_block_styles' ) ) :
 				 * https://github.com/WordPress/gutenberg/issues/24956
 				 */
 				'inline_style' => '
-				.is-style-hash a,
-				.is-style-hash span:not([class], [data-rich-text-placeholder]) {
-					padding: 0 0.5rem;
+				.is-style-hash {
+					display: flex;
+					gap: 0.25rem;
 				}
 
 				.is-style-hash a::before,
