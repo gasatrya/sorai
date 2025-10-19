@@ -14,8 +14,8 @@
 <div class="wp-block-group alignwide">
 	<!-- wp:group {"align":"wide","layout":{"type":"constrained","contentSize":"880px","justifyContent":"left"}} -->
 	<div class="wp-block-group alignwide">
-		<!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.3","fontStyle":"normal","fontWeight":"500"}},"fontSize":"xxxxx-large"} -->
-		<p class="has-xxxxx-large-font-size" style="font-style:normal;font-weight:500;line-height:1.3">
+		<!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.3","fontStyle":"normal","fontWeight":"550"}},"fontSize":"xxxxx-large"} -->
+		<p class="has-xxxxx-large-font-size" style="font-style:normal;font-weight:550;line-height:1.3">
 			<?php esc_html_e( 'Sorai is a WordPress block theme defined by clarity and character—minimalist in form, bold in presence, and built for a focused publishing experience. ', 'sorai' ); ?>
 		</p>
 		<!-- /wp:paragraph -->
