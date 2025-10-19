@@ -34,11 +34,6 @@
           "slug": "primary"
         },
         {
-          "color": "var:preset|color|background",
-          "name": "Primary Foreground",
-          "slug": "primary-foreground"
-        },
-        {
           "color": "#10517C",
           "name": "Secondary",
           "slug": "secondary"
