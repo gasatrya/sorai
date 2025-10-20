@@ -8,9 +8,9 @@
  */
 ?>
 
-<!-- wp:group {"style":{"border":{"bottom":{"color":"var:preset|color|border","width":"1px"},"top":[],"right":[],"left":[]}},"layout":{"inherit":"true","type":"constrained"}} -->
+<!-- wp:group {"style":{"border":{"bottom":{"color":"var:preset|color|base-muted","width":"1px"},"top":[],"right":[],"left":[]}},"layout":{"inherit":"true","type":"constrained"}} -->
 <div class="wp-block-group" style="
-	border-bottom-color: var(--wp--preset--color--border);
+	border-bottom-color: var(--wp--preset--color--base-muted);
 	border-bottom-width: 1px;
 	">
 	<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"bottom":"var:preset|spacing|20","top":"var:preset|spacing|20"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->

@@ -12,14 +12,9 @@
 <div style="height: var(--wp--preset--spacing--40)" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}},"border":{"top":{"color":"var:preset|color|border","width":"1px"},"right":[],"bottom":[],"left":[]},"elements":{"link":{"color":{"text":"var:preset|color|background"}}}},"backgroundColor":"primary","textColor":"background","layout":{"type":"constrained"}} -->
-<div class="wp-block-group has-background-color has-primary-background-color has-text-color has-background has-link-color"
-	style="
-	border-top-color: var(--wp--preset--color--border);
-	border-top-width: 1px;
-	padding-top: var(--wp--preset--spacing--30);
-	padding-bottom: var(--wp--preset--spacing--30);
-	">
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}},"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"base-dark","textColor":"base","layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-base-color has-base-dark-background-color has-text-color has-background has-link-color"
+	style="padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30)">
 	<!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
 	<div class="wp-block-group alignwide">
 		<!-- wp:columns {"align":"wide"} -->
@@ -30,9 +25,9 @@
 				<div class="wp-block-group">
 					<!-- wp:site-logo {"width":20,"shouldSyncIcon":true,"style":{"layout":{"selfStretch":"fit","flexSize":null}}} /-->
 
-					<!-- wp:site-title {"level":0} /-->
+					<!-- wp:site-title {"level":0,"style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"textColor":"base"} /-->
 
-					<!-- wp:site-tagline {"style":{"elements":{"link":{"color":{"text":"var:preset|color|muted-light"}}}},"textColor":"muted-light"} /-->
+					<!-- wp:site-tagline {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-contrast-light"}}}},"textColor":"contrast-light"} /-->
 				</div>
 				<!-- /wp:group -->
 			</div>
@@ -48,14 +43,13 @@
 				<div class="wp-block-group">
 					<!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
 					<div class="wp-block-group">
-						<!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|background"}}}},"textColor":"background","fontSize":"normal"} -->
-						<h3
-							class="wp-block-heading has-background-color has-text-color has-link-color has-normal-font-size">
+						<!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|base-light"}}}},"textColor":"base","fontSize":"normal"} -->
+						<h3 class="wp-block-heading has-base-color has-text-color has-link-color has-normal-font-size">
 							<?php esc_html_e( 'About', 'sorai' ); ?>
 						</h3>
 						<!-- /wp:heading -->
 
-						<!-- wp:navigation {"textColor":"muted-light","overlayMenu":"never","style":{"spacing":{"blockGap":"var:preset|spacing|5"}},"layout":{"type":"flex","orientation":"vertical"},"ariaLabel":"<?php esc_attr_e( 'About', 'sorai' ); ?>"} -->
+						<!-- wp:navigation {"textColor":"contrast-light","overlayMenu":"never","style":{"spacing":{"blockGap":"var:preset|spacing|5"}},"layout":{"type":"flex","orientation":"vertical"},"ariaLabel":"<?php esc_attr_e( 'About', 'sorai' ); ?>"} -->
 						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'About Us', 'sorai' ); ?>","url":"#"} /-->
 						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'History', 'sorai' ); ?>","url":"#"} /-->
 						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Careers', 'sorai' ); ?>","url":"#"} /-->
@@ -65,14 +59,13 @@
 
 					<!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
 					<div class="wp-block-group">
-						<!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"600"},"elements":{"link":{"color":{"text":"var:preset|color|background"}}}},"textColor":"background","fontSize":"normal"} -->
-						<h3 class="wp-block-heading has-background-color has-text-color has-link-color has-normal-font-size"
-							style="font-style: normal; font-weight: 600">
+						<!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|base-light"}}}},"textColor":"base","fontSize":"normal"} -->
+						<h3 class="wp-block-heading has-base-color has-text-color has-link-color has-normal-font-size">
 							<?php esc_html_e( 'Social', 'sorai' ); ?>
 						</h3>
 						<!-- /wp:heading -->
 
-						<!-- wp:navigation {"textColor":"muted-light","overlayMenu":"never","style":{"spacing":{"blockGap":"var:preset|spacing|5"}},"layout":{"type":"flex","orientation":"vertical"},"ariaLabel":"<?php esc_attr_e( 'Social', 'sorai' ); ?>"} -->
+						<!-- wp:navigation {"textColor":"contrast-light","overlayMenu":"never","style":{"spacing":{"blockGap":"var:preset|spacing|5"}},"layout":{"type":"flex","orientation":"vertical"},"ariaLabel":"<?php esc_attr_e( 'Social', 'sorai' ); ?>"} -->
 						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Facebook', 'sorai' ); ?>","url":"#"} /-->
 						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Instagram', 'sorai' ); ?>","url":"#"} /-->
 						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Twitter/X', 'sorai' ); ?>","url":"#"} /-->
@@ -82,14 +75,13 @@
 
 					<!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
 					<div class="wp-block-group">
-						<!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"600"},"elements":{"link":{"color":{"text":"var:preset|color|background"}}}},"textColor":"background","fontSize":"normal"} -->
-						<h3 class="wp-block-heading has-background-color has-text-color has-link-color has-normal-font-size"
-							style="font-style: normal; font-weight: 600">
+						<!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|base-light"}}}},"textColor":"base","fontSize":"normal"} -->
+						<h3 class="wp-block-heading has-base-color has-text-color has-link-color has-normal-font-size">
 							<?php esc_html_e( 'Privacy', 'sorai' ); ?>
 						</h3>
 						<!-- /wp:heading -->
 
-						<!-- wp:navigation {"textColor":"muted-light","overlayMenu":"never","style":{"spacing":{"blockGap":"var:preset|spacing|5"}},"layout":{"type":"flex","orientation":"vertical"},"ariaLabel":"<?php esc_attr_e( 'Privacy', 'sorai' ); ?>"} -->
+						<!-- wp:navigation {"textColor":"contrast-light","overlayMenu":"never","style":{"spacing":{"blockGap":"var:preset|spacing|5"}},"layout":{"type":"flex","orientation":"vertical"},"ariaLabel":"<?php esc_attr_e( 'Privacy', 'sorai' ); ?>"} -->
 						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Privacy Policy', 'sorai' ); ?>","url":"#"} /-->
 						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Terms & Conditions', 'sorai' ); ?>","url":"#"} /-->
 						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Contact Us', 'sorai' ); ?>","url":"#"} /-->
