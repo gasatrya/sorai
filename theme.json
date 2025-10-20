@@ -673,6 +673,9 @@
           }
         },
         "css": " & cite { font-size: var(--wp--preset--font-size--tiny); font-style: normal; } "
+      },
+      "core/query-pagination": {
+        "css": " & .wp-block-query-pagination-numbers { display: flex; gap: 1em; } & .page-numbers.current { font-weight: 600; }"
       }
     },
     "spacing": {
@@ -682,7 +685,7 @@
         "right": "var:preset|spacing|30"
       }
     },
-    "css": ":where(.wp-site-blocks *:focus){outline-width:2px;outline-style:solid}"
+    "css": ":where(.wp-site-blocks *:focus){outline-width:2px;outline-style:solid} strong { font-weight: 600; }"
   },
   "templateParts": [
     {

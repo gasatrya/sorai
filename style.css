@@ -1,33 +1,27 @@
 /*
 Theme Name: Sorai
-Theme URI: 
+Theme URI: https://github.com/gasatrya/sorai
 Author: Ga Satrya
-Author URI: https://ctaflow.com/
-Description: 
-Requires at least: 6.8
+Author URI: https://www.ctaflow.com/
+Description: Sorai is a WordPress block theme defined by clarity and character, minimalist in form, bold in presence, and built for a focused publishing experience.
+Requires at least: 6.5
 Tested up to: 6.8
 Requires PHP: 7.0
 Version: 1.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: sorai
-Tags: 
+Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments, translation-ready, wide-blocks, block-styles, style-variations, accessibility-ready, blog, portfolio
 */
 
-/* Make text selection use the theme primary color with a safe fallback for text color */
 ::selection {
   background: var(--wp--preset--color--base-dark);
   color: var(--wp--preset--color--base-light, #ffffff);
 }
 
-/* Firefox-specific pseudo-element */
 ::-moz-selection {
   background: var(--wp--preset--color--base-dark);
   color: var(--wp--preset--color--base-light, #ffffff);
-}
-
-strong {
-  font-weight: 600;
 }
 
 .wp-site-blocks {
@@ -68,13 +62,4 @@ strong {
 .wp-site-blocks[style*="--site-side-border: none"]::before,
 .wp-site-blocks[style*="--site-side-border: none"]::after {
   display: none;
-}
-
-.wp-block-query-pagination-numbers {
-  display: flex;
-  gap: 1em;
-}
-
-.wp-block-query-pagination-numbers .page-numbers.current {
-  font-weight: 600;
 }
