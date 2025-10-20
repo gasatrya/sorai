@@ -119,6 +119,27 @@
               ]
             }
           ]
+        },
+        {
+          "fontFamily": "\"Inter\", sans-serif",
+          "name": "Inter",
+          "slug": "inter",
+          "fontFace": [
+            {
+              "fontFamily": "Inter",
+              "fontStretch": "normal",
+              "fontStyle": "normal",
+              "fontWeight": "300 900",
+              "src": [
+                "file:./assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2"
+              ]
+            }
+          ]
+        },
+        {
+          "fontFamily": "system-ui, sans-serif",
+          "name": "System",
+          "slug": "system"
         }
       ],
       "fontSizes": [
