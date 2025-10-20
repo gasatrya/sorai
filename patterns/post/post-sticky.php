@@ -38,7 +38,7 @@
 					<div class="wp-block-column">
 						<!-- wp:group {"layout":{"type":"constrained","justifyContent":"left"}} -->
 						<div class="wp-block-group">
-							<!-- wp:post-excerpt {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-muted"}}},"typography":{"lineHeight":"1.5"}},"textColor":"muted"} /-->
+							<!-- wp:post-excerpt {"style":{"typography":{"lineHeight":"1.5"}}} /-->
 
 							<!-- wp:read-more /-->
 						</div>
