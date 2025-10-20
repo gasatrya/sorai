@@ -70,18 +70,6 @@ strong {
   display: none;
 }
 
-/* footer .wp-block-navigation .wp-block-navigation-item__content:hover {
-  color: var(--wp--preset--color--base-light) !important;
-} */
-
-@media (min-width: 721px) and (prefers-reduced-motion: reduce) {
-  header .wp-block-navigation .wp-block-navigation-item__content {
-    transition: none;
-    transform: none;
-    opacity: 1;
-  }
-}
-
 .wp-block-query-pagination-numbers {
   display: flex;
   gap: 1em;
