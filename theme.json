@@ -675,6 +675,18 @@
       "title": "Footer"
     }
   ],
+  "customTemplates": [
+    {
+      "name": "page-no-title",
+      "title": "Page No Title",
+      "postTypes": ["page"]
+    },
+    {
+      "name": "page-wide",
+      "title": "Page with Wide Container",
+      "postTypes": ["page"]
+    }
+  ],
   "version": 3,
   "$schema": "https://schemas.wp.org/wp/6.8/theme.json"
 }

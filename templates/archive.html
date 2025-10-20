@@ -2,23 +2,27 @@
 
 <!-- wp:group {"tagName":"main","metadata":{"name":"Main"},"layout":{"type":"constrained"}} -->
 <main class="wp-block-group">
-  <!-- wp:group {"metadata":{"name":"Archive Title"},"align":"wide","layout":{"type":"constrained","contentSize":"880px","justifyContent":"left"}} -->
+  <!-- wp:group {"metadata":{"name":"Container"},"align":"wide","layout":{"type":"constrained"}} -->
   <div class="wp-block-group alignwide">
-    <!-- wp:query-title {"type":"archive","textAlign":"left","align":"wide","fontSize":"xxxxx-large"} /-->
+    <!-- wp:group {"metadata":{"name":"Archive Title"},"align":"wide","layout":{"type":"constrained","contentSize":"880px","justifyContent":"left"}} -->
+    <div class="wp-block-group alignwide">
+      <!-- wp:query-title {"type":"archive","textAlign":"left","align":"wide","fontSize":"xxxxx-large"} /-->
 
-    <!-- wp:term-description {"align":"wide","fontSize":"normal"} /-->
+      <!-- wp:term-description {"align":"wide","fontSize":"normal"} /-->
+    </div>
+    <!-- /wp:group -->
+
+    <!-- wp:spacer {"height":"var:preset|spacing|30"} -->
+    <div
+      style="height: var(--wp--preset--spacing--30)"
+      aria-hidden="true"
+      class="wp-block-spacer"
+    ></div>
+    <!-- /wp:spacer -->
+
+    <!-- wp:pattern {"slug":"sorai/posts-grid-3-columns"} /-->
   </div>
   <!-- /wp:group -->
-
-  <!-- wp:spacer {"height":"var:preset|spacing|30"} -->
-  <div
-    style="height: var(--wp--preset--spacing--30)"
-    aria-hidden="true"
-    class="wp-block-spacer"
-  ></div>
-  <!-- /wp:spacer -->
-
-  <!-- wp:pattern {"slug":"sorai/posts-grid-3-columns"} /-->
 </main>
 <!-- /wp:group -->
 
