@@ -262,6 +262,14 @@
         }
       ]
     },
+    "blocks": {
+      "core/image": {
+        "lightbox": {
+          "enabled": true,
+          "allowEditing": true
+        }
+      }
+    },
     "useRootPaddingAwareAlignments": true
   },
   "styles": {
