@@ -1,0 +1,51 @@
+{
+  "title": "Kuno",
+  "settings": {
+    "color": {
+      "palette": [
+        {
+          "color": "#ffffff",
+          "name": "Base",
+          "slug": "base"
+        },
+        {
+          "color": "#fef1e9",
+          "name": "Base Light",
+          "slug": "base-light"
+        },
+        {
+          "color": "#573810",
+          "name": "Base Dark",
+          "slug": "base-dark"
+        },
+        {
+          "color": "#c0b8ad",
+          "name": "Base Muted",
+          "slug": "base-muted"
+        },
+        {
+          "color": "#311d05",
+          "name": "Contrast",
+          "slug": "contrast"
+        },
+        {
+          "color": "#fef1e9",
+          "name": "Contrast Light",
+          "slug": "contrast-light"
+        },
+        {
+          "color": "#636363",
+          "name": "Contrast Muted",
+          "slug": "contrast-muted"
+        },
+        {
+          "color": "#dc9437",
+          "name": "Accent",
+          "slug": "accent"
+        }
+      ]
+    }
+  },
+  "version": 3,
+  "$schema": "https://schemas.wp.org/wp/6.8/theme.json"
+}
