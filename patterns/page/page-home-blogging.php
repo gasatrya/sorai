@@ -3,9 +3,10 @@
  * Title: Blogging home
  * Slug: sorai/page-home-blogging
  * Categories: sorai-page
- * Keywords: page, starter
+ * Keywords: starter
+ * Block Types: core/post-content
  * Post Types: page, wp_template
- * Template Types: front-page, home, index
+ * Viewport width: 1400
  * Description: A blogging home page with a hero text section, a sticky/featured post section, and a blog section.
  */
 ?>
