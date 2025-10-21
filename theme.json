@@ -74,27 +74,27 @@
         },
         {
           "name": "Medium",
-          "size": "min(1.5rem, 2vw)",
+          "size": "clamp(1.5rem, 3vw, 2rem)",
           "slug": "20"
         },
         {
           "name": "Large",
-          "size": "min(2.5rem, 3vw)",
+          "size": "clamp(2.5rem, 4vw, 3rem)",
           "slug": "30"
         },
         {
           "name": "Extra Large",
-          "size": "min(4rem, 5vw)",
+          "size": "clamp(4rem, 5vw, 5rem)",
           "slug": "40"
         },
         {
           "name": "Huge",
-          "size": "min(6.5rem, 8vw)",
+          "size": "clamp(6.5rem, 7vw, 8rem)",
           "slug": "50"
         },
         {
           "name": "Gigantic",
-          "size": "min(10.5rem, 13vw)",
+          "size": "clamp(10.5rem, 10vw, 13rem)",
           "slug": "60"
         }
       ],
@@ -156,19 +156,28 @@
           "slug": "small"
         },
         {
-          "fluid": false,
+          "fluid": {
+            "min": "1.038rem",
+            "max": "1.125rem"
+          },
           "name": "Normal",
           "size": "1.125rem",
           "slug": "normal"
         },
         {
-          "fluid": false,
+          "fluid": {
+            "min": "1.109rem",
+            "max": "1.2rem"
+          },
           "name": "Medium",
           "size": "1.2rem",
           "slug": "medium"
         },
         {
-          "fluid": false,
+          "fluid": {
+            "min": "1.181rem",
+            "max": "1.281rem"
+          },
           "name": "Large",
           "size": "1.281rem",
           "slug": "large"
@@ -681,8 +690,8 @@
     "spacing": {
       "blockGap": "1.2rem",
       "padding": {
-        "left": "var:preset|spacing|30",
-        "right": "var:preset|spacing|30"
+        "left": "var:preset|spacing|20",
+        "right": "var:preset|spacing|20"
       }
     },
     "css": ":where(.wp-site-blocks *:focus){outline-width:2px;outline-style:solid} strong { font-weight: 600; }"

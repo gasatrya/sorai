@@ -8,8 +8,8 @@
  */
 ?>
 
-<!-- wp:spacer {"height":"var:preset|spacing|40"} -->
-<div style="height: var(--wp--preset--spacing--40)" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- wp:spacer {"height":"var:preset|spacing|30"} -->
+<div style="height: var(--wp--preset--spacing--30)" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}},"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"base-dark","textColor":"base","layout":{"type":"constrained"}} -->
