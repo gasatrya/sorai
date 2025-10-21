@@ -30,6 +30,14 @@ Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, feature
   margin: auto;
 }
 
+@media screen and (max-width: 720px) {
+  .wp-site-blocks > .has-global-padding {
+    max-width: 100%;
+    padding-left: var(--wp--site-side--mobile-spacing, 1.5rem);
+    padding-right: var(--wp--site-side--mobile-spacing, 1.5rem);
+  }
+}
+
 /* Create left and right vertical borders without affecting layout or pointer events */
 .wp-site-blocks::before,
 .wp-site-blocks::after {
@@ -37,7 +45,7 @@ Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, feature
   position: absolute;
   top: 0;
   bottom: 0;
-  width: var(--site-side-border-width, 0.5px);
+  width: var(--wp--site-side-border-width, 0.5px);
   background: var(--wp--preset--color--base-muted);
   pointer-events: none;
   z-index: 1;
@@ -58,8 +66,8 @@ Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, feature
   }
 }
 
-/* Allow overriding via inline style --site-side-border: none; */
-.wp-site-blocks[style*="--site-side-border: none"]::before,
-.wp-site-blocks[style*="--site-side-border: none"]::after {
+/* Allow overriding via inline style --wp--site-side-border: none; */
+.wp-site-blocks[style*="--wp--site-side-border: none"]::before,
+.wp-site-blocks[style*="--wp--site-side-border: none"]::after {
   display: none;
 }
