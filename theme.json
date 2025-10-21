@@ -635,7 +635,7 @@
         "css": " & input[type='search'] { border: 1px solid var(--wp--preset--color--base-muted); background: var(--wp--preset--color--base); padding: 0.5em; width: 100%; font-size: var(--wp--preset--font-size--tiny) } & .wp-block-search__label { font-weight: 550; font-size: var(--wp--preset--font-size--tiny); margin-bottom: 0.25rem; display: block;"
       },
       "core/list": {
-        "css": " & ul { padding-left: var(--wp--preset--spacing--10); } "
+        "css": " & ul { padding-left: var(--wp--preset--spacing--20); }"
       },
       "core/pullquote": {
         "elements": {
@@ -685,6 +685,18 @@
       },
       "core/query-pagination": {
         "css": " & .wp-block-query-pagination-numbers { display: flex; gap: 1em; } & .page-numbers.current { font-weight: 600; }"
+      },
+      "core/categories": {
+        "typography": {
+          "fontSize": "var:preset|font-size|tiny"
+        },
+        "spacing": {
+          "padding": {
+            "left": "0",
+            "right": "0"
+          }
+        },
+        "css": "& {list-style-type:none;} & li{margin-bottom: 0.25rem;}"
       }
     },
     "spacing": {
