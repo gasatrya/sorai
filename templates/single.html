@@ -16,32 +16,7 @@
       </div>
       <!-- /wp:group -->
 
-      <!-- wp:group {"metadata":{"name":"Post Meta"},"style":{"spacing":{"blockGap":"0.1rem"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-      <div class="wp-block-group">
-        <!-- wp:post-author {"showBio":false,"isLink":true,"style":{"color":{"duotone":"var:preset|duotone|primary"}}} /-->
-
-        <!-- wp:paragraph {"style":{"layout":{"selfStretch":"fit","flexSize":null},"typography":{"fontStyle":"normal","fontWeight":"400"}},"textColor":"contrast-muted"} -->
-        <p
-          class="has-contrast-muted-color has-text-color"
-          style="font-style: normal; font-weight: 400"
-        >
-          —
-        </p>
-        <!-- /wp:paragraph -->
-
-        <!-- wp:group {"metadata":{"name":"Date"},"style":{"spacing":{"blockGap":"0.2rem"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-        <div class="wp-block-group">
-          <!-- wp:paragraph {"textColor":"contrast-muted","fontSize":"tiny"} -->
-          <p class="has-contrast-muted-color has-text-color has-tiny-font-size">
-            on
-          </p>
-          <!-- /wp:paragraph -->
-
-          <!-- wp:post-date /-->
-        </div>
-        <!-- /wp:group -->
-      </div>
-      <!-- /wp:group -->
+      <!-- wp:template-part {"slug":"post-meta"} /-->
     </header>
     <!-- /wp:group -->
 
@@ -65,13 +40,7 @@
       <hr class="wp-block-separator has-alpha-channel-opacity" />
       <!-- /wp:separator -->
 
-      <!-- wp:group {"metadata":{"name":"Post Navigation"},"layout":{"type":"flex","orientation":"vertical"}} -->
-      <div class="wp-block-group">
-        <!-- wp:post-navigation-link {"type":"previous","showTitle":true,"linkLabel":true} /-->
-
-        <!-- wp:post-navigation-link {"textAlign":"left","showTitle":true,"linkLabel":true} /-->
-      </div>
-      <!-- /wp:group -->
+      <!-- wp:template-part {"slug":"post-navigation"} /-->
     </footer>
     <!-- /wp:group -->
 
