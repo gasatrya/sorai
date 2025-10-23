@@ -6,7 +6,7 @@
  */
 ?>
 
-<!-- wp:group {"metadata":{"name":"<?php echo esc_html_x( 'Post meta', 'Name of Post meta pattern', 'sorai' ); ?>"},"style":{"spacing":{"blockGap":"0.1rem"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<!-- wp:group {"style":{"spacing":{"blockGap":"0.1rem"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group">
 	<!-- wp:post-author {"showBio":false,"isLink":true,"style":{"color":{"duotone":"var:preset|duotone|primary"}}} /-->
 
