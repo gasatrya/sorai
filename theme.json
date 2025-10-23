@@ -728,6 +728,11 @@
       "area": "uncategorized",
       "name": "post-navigation",
       "title": "Post Navigation"
+    },
+    {
+      "area": "uncategorized",
+      "name": "comments",
+      "title": "Comments"
     }
   ],
   "customTemplates": [

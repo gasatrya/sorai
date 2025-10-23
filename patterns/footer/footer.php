@@ -105,10 +105,10 @@
 			<p class="has-tiny-font-size" style="font-style: normal; font-weight: 400">
 				<?php
 				/* Translators: WordPress link. */
-				$wordpress_link = '<a href="' . esc_url( __( 'https://wordpress.org', 'twentytwentyfour' ) ) . '" rel="nofollow">WordPress</a>';
+				$wordpress_link = '<a href="' . esc_url( __( 'https://wordpress.org', 'sorai' ) ) . '" rel="nofollow">WordPress</a>';
 				echo sprintf(
 					/* Translators: Designed with WordPress by Ga Satrya */
-					esc_html__( 'Designed with %1$s by %2$s', 'twentytwentyfour' ),
+					esc_html__( 'Designed with %1$s by %2$s', 'sorai' ),
 					$wordpress_link,
 					'<a href="https://kilau.studio/" rel="nofollow">Ga Satrya</a>'
 				);

@@ -1,7 +1,7 @@
 <?php
 /**
- * Title: Featured image aspect standard (4:3)
- * Slug: sorai/hidden-featured-image-aspect-standard
+ * Title: Post thumbnail aspect standard (4:3)
+ * Slug: sorai/hidden-post-thumbnail-aspect-standard
  * Inserter: no
  */
 ?>

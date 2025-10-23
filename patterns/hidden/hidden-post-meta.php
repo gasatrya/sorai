@@ -20,7 +20,7 @@
 	<div class="wp-block-group">
 		<!-- wp:paragraph {"textColor":"contrast-muted","fontSize":"tiny"} -->
 		<p class="has-contrast-muted-color has-text-color has-tiny-font-size">
-			<?php echo esc_html_x( 'on', 'Prefix for the post date block: On post date', 'twentytwentyfour' ); ?>
+			<?php echo esc_html_x( 'on', 'Prefix for the post date block: On post date', 'sorai' ); ?>
 		</p>
 		<!-- /wp:paragraph -->
 
