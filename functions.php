@@ -117,10 +117,10 @@ if ( ! function_exists( 'sorai_pattern_categories' ) ) :
 	function sorai_pattern_categories() {
 
 		register_block_pattern_category(
-			'sorai-post',
+			'sorai-query',
 			array(
-				'label' => _x( 'Posts', 'Block pattern category', 'sorai' ),
-				'description' => __( 'A collection of posts patterns.', 'sorai' ),
+				'label' => _x( 'Posts Query', 'Block pattern category', 'sorai' ),
+				'description' => __( 'A collection of posts query patterns.', 'sorai' ),
 			)
 		);
 
