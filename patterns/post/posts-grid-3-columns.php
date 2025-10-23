@@ -19,7 +19,7 @@
 		<div class="wp-block-group">
 			<!-- wp:post-title {"isLink":true,"style":{"typography":{"lineHeight":"1.35"}},"fontSize":"x-large"} /-->
 
-			<!-- wp:post-excerpt {"showMoreOnNewLine":false,"excerptLength":20,"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-muted"}}},"typography":{"lineHeight":"1.55"}},"textColor":"muted","fontSize":"tiny"} /-->
+			<!-- wp:post-excerpt {"style":{"typography":{"lineHeight":"1.55"}},"fontSize":"tiny"} /-->
 		</div>
 		<!-- /wp:group -->
 

@@ -1,14 +1,14 @@
 <!-- wp:template-part {"slug":"header","area":"header"} /-->
 
-<!-- wp:group {"tagName":"main","metadata":{"name":"Main"},"layout":{"type":"constrained"}} -->
+<!-- wp:group {"tagName":"main","layout":{"type":"constrained"}} -->
 <main class="wp-block-group">
-  <!-- wp:group {"metadata":{"name":"Container"},"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"constrained"}} -->
+  <!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"constrained"}} -->
   <div class="wp-block-group alignwide">
-    <!-- wp:group {"tagName":"header","metadata":{"name":"Header"},"layout":{"type":"constrained"}} -->
+    <!-- wp:group {"tagName":"header","align":"wide","layout":{"type":"constrained"}} -->
     <header class="wp-block-group">
       <!-- wp:post-terms {"term":"category"} /-->
 
-      <!-- wp:group {"metadata":{"name":"Title"},"align":"wide","layout":{"type":"constrained","justifyContent":"left"}} -->
+      <!-- wp:group {"align":"wide","layout":{"type":"constrained","justifyContent":"left"}} -->
       <div class="wp-block-group alignwide">
         <!-- wp:post-title {"level":1,"align":"wide"} /-->
 
@@ -20,13 +20,13 @@
     </header>
     <!-- /wp:group -->
 
-    <!-- wp:group {"metadata":{"name":"Featured Image"},"align":"wide","layout":{"type":"constrained"}} -->
+    <!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
     <div class="wp-block-group alignwide">
-      <!-- wp:post-featured-image {"aspectRatio":"16/9","align":"wide","style":{"color":{"duotone":"var:preset|duotone|primary"}}} /-->
+      <!-- wp:post-featured-image {"aspectRatio":"16/9","align":"wide","style":{"color":{"duotone":"var:preset|duotone|primary"},"shadow":"var:preset|shadow|md"}} /-->
     </div>
     <!-- /wp:group -->
 
-    <!-- wp:group {"metadata":{"name":"Content"},"layout":{"type":"constrained"}} -->
+    <!-- wp:group {"layout":{"type":"constrained"}} -->
     <div class="wp-block-group">
       <!-- wp:post-content /-->
 
@@ -34,7 +34,7 @@
     </div>
     <!-- /wp:group -->
 
-    <!-- wp:group {"tagName":"footer","metadata":{"name":"Footer"},"align":"wide","layout":{"type":"constrained"}} -->
+    <!-- wp:group {"tagName":"footer","align":"wide","layout":{"type":"constrained"}} -->
     <footer class="wp-block-group alignwide">
       <!-- wp:separator -->
       <hr class="wp-block-separator has-alpha-channel-opacity" />
