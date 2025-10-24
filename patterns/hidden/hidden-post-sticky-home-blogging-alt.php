@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Posts heading
+ * Title: Sticky post for home blogging alternative
  * Slug: sorai/hidden-post-sticky-home-blogging-alt
  * Inserter: no
  */
