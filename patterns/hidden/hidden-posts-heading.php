@@ -8,6 +8,6 @@
 
 <!-- wp:heading {"level":1,"align":"wide"} -->
 <h1 class="wp-block-heading alignwide">
-	<?php esc_html_e( 'Posts', 'sorai' ); ?>
+	<?php esc_html_e( 'All Posts', 'sorai' ); ?>
 </h1>
 <!-- /wp:heading -->

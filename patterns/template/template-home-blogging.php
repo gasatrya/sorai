@@ -10,9 +10,9 @@
 
 <!-- wp:template-part {"slug":"header","area":"header"} /-->
 
-<!-- wp:group {"tagName":"main","metadata":{"name":"Main"},"layout":{"type":"constrained"}} -->
+<!-- wp:group {"tagName":"main","layout":{"type":"constrained"}} -->
 <main class="wp-block-group">
-	<!-- wp:group {"metadata":{"name":"Container"},"align":"full","layout":{"type":"constrained"}} -->
+	<!-- wp:group {"align":"full","layout":{"type":"constrained"}} -->
 	<div class="wp-block-group alignfull">
 
 		<!-- wp:group {"align":"wide","layout":{"type":"constrained","justifyContent":"left","contentSize":"880px"}} -->
