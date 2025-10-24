@@ -1,26 +1,15 @@
 <!-- wp:template-part {"slug":"header","area":"header"} /-->
 
-<!-- wp:group {"tagName":"main","layout":{"type":"constrained"}} -->
-<main class="wp-block-group">
-  <!-- wp:group {"layout":{"type":"constrained"}} -->
-  <div class="wp-block-group">
-    <!-- wp:group {"layout":{"type":"constrained"}} -->
-    <div class="wp-block-group">
-      <!-- wp:pattern {"slug":"sorai/hidden-404"} /-->
-
-      <!-- wp:pattern {"slug":"sorai/hidden-search"} /-->
-    </div>
-    <!-- /wp:group -->
-
-    <!-- wp:spacer {"height":"var:preset|spacing|40"} -->
-    <div
-      style="height: var(--wp--preset--spacing--40)"
-      aria-hidden="true"
-      class="wp-block-spacer"
-    ></div>
-    <!-- /wp:spacer -->
-  </div>
-  <!-- /wp:group -->
+<!-- wp:group {"tagName":"main","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"}}},"layout":{"type":"constrained"}} -->
+<main
+  class="wp-block-group"
+  style="
+    padding-top: var(--wp--preset--spacing--50);
+    padding-bottom: var(--wp--preset--spacing--50);
+  "
+>
+  <!-- wp:pattern {"slug":"sorai/hidden-404"} /-->
+  <!-- wp:pattern {"slug":"sorai/hidden-search"} /-->
 </main>
 <!-- /wp:group -->
 
