@@ -49,7 +49,11 @@
 	<!-- /wp:group -->
 	<!-- /wp:post-template -->
 
-	<!-- wp:template-part {"slug":"post-pagination"} /-->
+	<!-- wp:query-pagination {"layout":{"type":"flex","justifyContent":"space-between"}} -->
+	<!-- wp:query-pagination-previous /-->
+	<!-- wp:query-pagination-numbers /-->
+	<!-- wp:query-pagination-next /-->
+	<!-- /wp:query-pagination -->
 
 	<!-- wp:query-no-results -->
 	<!-- wp:pattern {"slug":"sorai/hidden-no-results"} /-->

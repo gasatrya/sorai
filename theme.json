@@ -731,11 +731,6 @@
     },
     {
       "area": "uncategorized",
-      "name": "post-pagination",
-      "title": "Post Pagination"
-    },
-    {
-      "area": "uncategorized",
       "name": "comments",
       "title": "Comments"
     }
