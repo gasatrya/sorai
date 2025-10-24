@@ -697,6 +697,15 @@
           }
         },
         "css": "& {list-style-type:none;} & li{margin-bottom: 0.25rem;}"
+      },
+      "core/term-description": {
+        "typography": {
+          "fontSize": "var:preset|font-size|small",
+          "lineHeight": "1.6"
+        },
+        "color": {
+          "text": "var:preset|color|contrast-muted"
+        }
       }
     },
     "spacing": {
