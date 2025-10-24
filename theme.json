@@ -519,7 +519,7 @@
           "fontSize": "var:preset|font-size|tiny",
           "fontWeight": "550"
         },
-        "css": " &::after { content: '→'; margin-left: 0.5em; }"
+        "css": " &::before { content: '←'; margin-right: 0.5em; }"
       },
       "core/query-pagination-numbers": {
         "typography": {
