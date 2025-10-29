@@ -19,7 +19,7 @@
 
 		<!-- wp:column {"verticalAlignment":"center"} -->
 		<div class="wp-block-column is-vertically-aligned-center">
-			<!-- wp:group {"layout":{"type":"constrained"}} -->
+			<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"constrained"}} -->
 			<div class="wp-block-group">
 				<!-- wp:post-title {"isLink":true,"fontSize":"xxxxx-large"} /-->
 

@@ -15,7 +15,7 @@
 
 	<!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|5"}},"layout":{"type":"constrained","justifyContent":"left","contentSize":"880px"}} -->
 	<div class="wp-block-group alignwide">
-		<!-- wp:heading {"fontSize":"display-large"} -->
+		<!-- wp:heading {"level":2,"fontSize":"display-large"} -->
 		<h2 class="wp-block-heading has-display-large-font-size">
 			<?php esc_html_e( 'Journal and Stories', 'sorai' ); ?>
 		</h2>

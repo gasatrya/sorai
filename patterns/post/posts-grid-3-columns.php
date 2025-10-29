@@ -25,7 +25,7 @@
 			</div>
 			<!-- /wp:group -->
 
-			<!-- wp:template-part {"slug":"post-meta","theme":"sorai"} /-->
+			<!-- wp:template-part {"slug":"post-meta"} /-->
 		</div>
 		<!-- /wp:group -->
 	</div>
