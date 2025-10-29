@@ -8,7 +8,7 @@
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"0.1rem"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group">
-	<!-- wp:post-author {"showBio":false,"isLink":true,"style":{"color":{"duotone":"var:preset|duotone|primary"}}} /-->
+	<!-- wp:post-author {"showBio":false,"isLink":true} /-->
 
 	<!-- wp:paragraph {"style":{"layout":{"selfStretch":"fit","flexSize":null},"typography":{"fontStyle":"normal","fontWeight":"400"}},"textColor":"contrast-muted"} -->
 	<p class="has-contrast-muted-color has-text-color" style="font-style: normal; font-weight: 400">

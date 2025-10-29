@@ -13,7 +13,7 @@
 	<div class="wp-block-columns">
 		<!-- wp:column {"verticalAlignment":"center"} -->
 		<div class="wp-block-column is-vertically-aligned-center">
-			<!-- wp:post-featured-image {"isLink":true,"sizeSlug":"large","style":{"color":{"duotone":"var:preset|duotone|primary"},"shadow":"var:preset|shadow|md"}} /-->
+			<!-- wp:post-featured-image {"isLink":true,"sizeSlug":"large","style":{"shadow":"var:preset|shadow|md"}} /-->
 		</div>
 		<!-- /wp:column -->
 

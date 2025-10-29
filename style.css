@@ -15,51 +15,11 @@ Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, feature
 */
 
 ::selection {
-  background: var(--wp--preset--color--base-dark);
-  color: var(--wp--preset--color--base-light, #ffffff);
+  background: var(--wp--preset--color--contrast);
+  color: var(--wp--preset--color--base-muted, #ffffff);
 }
 
 ::-moz-selection {
-  background: var(--wp--preset--color--base-dark);
-  color: var(--wp--preset--color--base-light, #ffffff);
-}
-
-.wp-site-blocks {
-  position: relative;
-  max-width: var(--wp--style--global--wide-size, 1280px);
-  margin: auto;
-}
-
-/* Create left and right vertical borders without affecting layout or pointer events */
-.wp-site-blocks::before,
-.wp-site-blocks::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: var(--wp--site-side-border-width, 0.5px);
-  background: var(--wp--preset--color--base-muted);
-  pointer-events: none;
-  z-index: 1;
-}
-
-.wp-site-blocks::before {
-  left: 0;
-}
-
-.wp-site-blocks::after {
-  right: 0;
-}
-
-@media (max-width: 720px) {
-  .wp-site-blocks::before,
-  .wp-site-blocks::after {
-    display: none;
-  }
-}
-
-/* Allow overriding via inline style --wp--site-side-border: none; */
-.wp-site-blocks[style*="--wp--site-side-border: none"]::before,
-.wp-site-blocks[style*="--wp--site-side-border: none"]::after {
-  display: none;
+  background: var(--wp--preset--color--contrast);
+  color: var(--wp--preset--color--base-muted, #ffffff);
 }
