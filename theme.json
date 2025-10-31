@@ -900,8 +900,8 @@
   ],
   "customTemplates": [
     {
-      "name": "page-no-title",
-      "title": "Page No Title",
+      "name": "page-landing",
+      "title": "Landing Page",
       "postTypes": ["page"]
     },
     {
