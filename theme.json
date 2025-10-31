@@ -869,7 +869,7 @@
         "right": "var:preset|spacing|20"
       }
     },
-    "css": ":root { --wp--style--gallery-gap-default: var(--wp--preset--spacing--10); } :where(.wp-site-blocks *:focus){outline-width:2px;outline-style:solid} strong { font-weight: 650; } .wp-block-post-content .wp-block-heading + * { margin-block-start: var(--wp--preset--spacing--10); }"
+    "css": ":root { --wp--style--gallery-gap-default: var(--wp--preset--spacing--10); } :where(.wp-site-blocks *:focus){outline-width:2px;outline-style:solid} strong { font-weight: 650; } .wp-block-post-content .wp-block-heading + * { margin-block-start: var(--wp--preset--spacing--10); } footer.wp-block-template-part { margin-block-start: 0; }"
   },
   "templateParts": [
     {
