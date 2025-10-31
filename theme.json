@@ -54,32 +54,32 @@
         },
         {
           "name": "Small",
-          "size": "1rem",
+          "size": "0.875rem",
           "slug": "10"
         },
         {
           "name": "Medium",
-          "size": "clamp(1.5rem, 3vw, 2rem)",
+          "size": "clamp(1rem, 2.5vw, 1.5rem)",
           "slug": "20"
         },
         {
           "name": "Large",
-          "size": "clamp(2.5rem, 4vw, 3rem)",
+          "size": "clamp(1.5rem, 3.5vw, 2.5rem)",
           "slug": "30"
         },
         {
-          "name": "Extra Large",
-          "size": "clamp(4rem, 5vw, 5rem)",
+          "name": "XL",
+          "size": "clamp(2.5rem, 5vw, 4rem)",
           "slug": "40"
         },
         {
-          "name": "Huge",
-          "size": "clamp(6.5rem, 7vw, 8rem)",
+          "name": "XXL",
+          "size": "clamp(4rem, 7.5vw, 6.5rem)",
           "slug": "50"
         },
         {
-          "name": "Gigantic",
-          "size": "clamp(10.5rem, 10vw, 13rem)",
+          "name": "XXXL",
+          "size": "clamp(6.5rem, 10vw, 10.5rem)",
           "slug": "60"
         }
       ],
@@ -130,7 +130,7 @@
       "fontSizes": [
         {
           "fluid": false,
-          "name": "Small",
+          "name": "Tiny",
           "size": "0.875rem",
           "slug": "tiny"
         },
@@ -865,8 +865,8 @@
     "spacing": {
       "blockGap": "var:preset|spacing|20",
       "padding": {
-        "left": "var:preset|spacing|20",
-        "right": "var:preset|spacing|20"
+        "left": "var:preset|spacing|30",
+        "right": "var:preset|spacing|30"
       }
     },
     "css": ":root { --wp--style--gallery-gap-default: var(--wp--preset--spacing--10); } :where(.wp-site-blocks *:focus){outline-width:2px;outline-style:solid} strong { font-weight: 650; } .wp-block-post-content .wp-block-heading + * { margin-block-start: var(--wp--preset--spacing--10); } footer.wp-block-template-part { margin-block-start: 0; }"
