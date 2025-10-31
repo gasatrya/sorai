@@ -101,8 +101,8 @@
 
 		<!-- wp:group {"align":"wide"} -->
 		<div class="wp-block-group alignwide">
-			<!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"400"}},"fontSize":"tiny"} -->
-			<p class="has-tiny-font-size" style="font-style: normal; font-weight: 400">
+			<!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"400"}},"fontSize":"small"} -->
+			<p class="has-small-font-size" style="font-style: normal; font-weight: 400">
 				<?php
 				/* Translators: WordPress link. */
 				$wordpress_link = '<a href="' . esc_url( __( 'https://wordpress.org', 'sorai' ) ) . '" rel="nofollow">WordPress</a>';

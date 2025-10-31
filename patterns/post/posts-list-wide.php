@@ -26,7 +26,7 @@
 			<div class="wp-block-column">
 				<!-- wp:group {"layout":{"type":"constrained","justifyContent":"left"}} -->
 				<div class="wp-block-group">
-					<!-- wp:post-title {"isLink":true,"style":{"typography":{"lineHeight":"1.3"}},"fontSize":"xxxx-large"} /-->
+					<!-- wp:post-title {"isLink":true,"style":{"typography":{"lineHeight":"1.3"}},"fontSize":"x-large"} /-->
 				</div>
 				<!-- /wp:group -->
 			</div>

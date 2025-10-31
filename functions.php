@@ -69,7 +69,7 @@ if ( ! function_exists( 'sorai_block_styles' ) ) :
 				}
 
 				.wp-block-heading.is-style-with-border {
-					font-size: var(--wp--preset--font-size--small);
+					font-size: var(--wp--preset--font-size--normal);
 					margin-bottom: var(--wp--preset--spacing--20);
 				}
 				',
