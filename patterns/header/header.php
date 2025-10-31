@@ -40,7 +40,3 @@
 	<!-- /wp:group -->
 </div>
 <!-- /wp:group -->
-
-<!-- wp:spacer {"height":"var:preset|spacing|30"} -->
-<div style="height: var(--wp--preset--spacing--30)" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer -->
