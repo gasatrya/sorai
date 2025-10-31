@@ -18,8 +18,8 @@
 
 	<!-- wp:group {"style":{"spacing":{"blockGap":"0.2rem"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 	<div class="wp-block-group">
-		<!-- wp:paragraph {"textColor":"contrast-muted","fontSize":"small"} -->
-		<p class="has-contrast-muted-color has-text-color has-small-font-size">
+		<!-- wp:paragraph {"textColor":"contrast-muted","fontSize":"tiny"} -->
+		<p class="has-contrast-muted-color has-text-color has-tiny-font-size">
 			<?php echo esc_html_x( 'on', 'Prefix for the post date block: On post date', 'sorai' ); ?>
 		</p>
 		<!-- /wp:paragraph -->

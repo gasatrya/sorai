@@ -21,7 +21,7 @@
 			<div class="wp-block-group">
 				<!-- wp:post-title {"isLink":true,"style":{"typography":{"lineHeight":"1.35"}},"fontSize":"large"} /-->
 
-				<!-- wp:post-excerpt {"showMoreOnNewLine":false,"style":{"typography":{"lineHeight":"1.45"}},"fontSize":"normal"} /-->
+				<!-- wp:post-excerpt {"showMoreOnNewLine":false,"style":{"typography":{"lineHeight":"1.5"}},"fontSize":"small"} /-->
 			</div>
 			<!-- /wp:group -->
 

@@ -10,6 +10,10 @@
 
 <!-- wp:template-part {"slug":"header","area":"header"} /-->
 
+<!-- wp:spacer {"height":"var:preset|spacing|10"} -->
+<div style="height: var(--wp--preset--spacing--10)" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
 <!-- wp:group {"tagName":"main","layout":{"type":"constrained"}} -->
 <main class="wp-block-group">
 
@@ -42,5 +46,9 @@
 
 </main>
 <!-- /wp:group -->
+
+<!-- wp:spacer {"height":"var:preset|spacing|10"} -->
+<div style="height: var(--wp--preset--spacing--10)" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
 
 <!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->

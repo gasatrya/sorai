@@ -19,7 +19,7 @@
 		<div class="wp-block-group">
 			<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|5"}},"layout":{"type":"constrained"}} -->
 			<div class="wp-block-group">
-				<!-- wp:post-title {"isLink":true,"style":{"typography":{"lineHeight":"1.35"}},"fontSize":"x-large"} /-->
+				<!-- wp:post-title {"isLink":true,"style":{"typography":{"lineHeight":"1.35"}},"fontSize":"large"} /-->
 
 				<!-- wp:post-excerpt {"style":{"typography":{"lineHeight":"1.55"}},"fontSize":"small"} /-->
 			</div>

@@ -1,12 +1,20 @@
 <!-- wp:template-part {"slug":"header","area":"header"} /-->
 
+<!-- wp:spacer {"height":"var:preset|spacing|10"} -->
+<div
+  style="height: var(--wp--preset--spacing--10)"
+  aria-hidden="true"
+  class="wp-block-spacer"
+></div>
+<!-- /wp:spacer -->
+
 <!-- wp:group {"tagName":"main","layout":{"type":"constrained"}} -->
 <main class="wp-block-group">
   <!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
   <div class="wp-block-group alignwide">
     <!-- wp:group {"align":"wide","layout":{"type":"constrained","contentSize":"880px","justifyContent":"left"}} -->
     <div class="wp-block-group alignwide">
-      <!-- wp:query-title {"type":"search","textAlign":"left","align":"wide","style":{"typography":{"lineHeight":"1.2","fontStyle":"normal","fontWeight":"800","letterSpacing":"-0.05em"}},"fontSize":"display-large"} /-->
+      <!-- wp:query-title {"type":"search","textAlign":"left","align":"wide","fontSize":"xxxx-large"} /-->
 
       <!-- wp:pattern {"slug":"sorai/hidden-search"} /-->
     </div>
@@ -25,5 +33,13 @@
   <!-- /wp:group -->
 </main>
 <!-- /wp:group -->
+
+<!-- wp:spacer {"height":"var:preset|spacing|10"} -->
+<div
+  style="height: var(--wp--preset--spacing--10)"
+  aria-hidden="true"
+  class="wp-block-spacer"
+></div>
+<!-- /wp:spacer -->
 
 <!-- wp:template-part {"slug":"footer","area":"footer"} /-->

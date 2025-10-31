@@ -21,7 +21,7 @@
 		<div class="wp-block-column is-vertically-aligned-center">
 			<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"constrained"}} -->
 			<div class="wp-block-group">
-				<!-- wp:post-title {"isLink":true,"fontSize":"xxxxx-large"} /-->
+				<!-- wp:post-title {"isLink":true,"fontSize":"xx-large"} /-->
 
 				<!-- wp:post-excerpt /-->
 
