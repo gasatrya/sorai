@@ -6,8 +6,8 @@
  */
 ?>
 
-<!-- wp:heading {"align":"wide","fontSize":"display-large"} -->
-<h2 class="wp-block-heading alignwide has-display-large-font-size">
+<!-- wp:heading {"align":"wide","fontSize":"xx-large"} -->
+<h2 class="wp-block-heading alignwide has-xx-large-font-size">
 	<?php esc_html_e( 'All Posts', 'sorai' ); ?>
 </h2>
 <!-- /wp:heading -->

@@ -497,7 +497,8 @@
       "core/read-more": {
         "typography": {
           "fontSize": "var:preset|font-size|tiny",
-          "fontWeight": "700"
+          "fontWeight": "700",
+          "letterSpacing": "-0.025em"
         },
         "css": " &::after { content: '→'; margin-left: 0.5em; }"
       },
