@@ -9,6 +9,21 @@
  * @since Sorai 1.0
  */
 
+if ( ! function_exists( 'sorai_setup' ) ) :
+	/**
+	 * Enqueues editor-style.css in the editors.
+	 *
+	 * @since Sorai 1.0
+	 *
+	 * @return void
+	 */
+	function sorai_setup() {
+		add_editor_style( 'style.css' );
+		remove_theme_support( 'core-block-patterns' );
+	}
+endif;
+add_action( 'after_setup_theme', 'sorai_setup' );
+
 if ( ! function_exists( 'sorai_enqueue_styles' ) ) :
 	/**
 	 * Enqueues style.css on the front.
@@ -27,20 +42,6 @@ if ( ! function_exists( 'sorai_enqueue_styles' ) ) :
 	}
 endif;
 add_action( 'wp_enqueue_scripts', 'sorai_enqueue_styles' );
-
-if ( ! function_exists( 'sorai_editor_style' ) ) :
-	/**
-	 * Enqueues editor-style.css in the editors.
-	 *
-	 * @since Sorai 1.0
-	 *
-	 * @return void
-	 */
-	function sorai_editor_style() {
-		add_editor_style( 'style.css' );
-	}
-endif;
-add_action( 'after_setup_theme', 'sorai_editor_style' );
 
 /**
  * Register block styles.
@@ -115,9 +116,9 @@ if ( ! function_exists( 'sorai_pattern_categories' ) ) :
 	function sorai_pattern_categories() {
 
 		register_block_pattern_category(
-			'sorai-query',
+			'sorai-post',
 			array(
-				'label' => _x( 'Posts Query', 'Block pattern category', 'sorai' ),
+				'label' => _x( 'Posts', 'Block pattern category', 'sorai' ),
 				'description' => __( 'A collection of posts query patterns.', 'sorai' ),
 			)
 		);

@@ -2,7 +2,7 @@
 /**
  * Title: List of posts, 1 column
  * Slug: sorai/posts-list
- * Categories: sorai-query
+ * Categories: sorai-post
  * Block Types: core/query
  * Description: A list of posts with a featured image, title, and excerpt.
  */

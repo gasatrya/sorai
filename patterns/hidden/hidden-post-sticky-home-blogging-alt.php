@@ -6,7 +6,7 @@
  */
 ?>
 
-<!-- wp:query {"query":{"perPage":1,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"only","inherit":false},"metadata":{"categories":["sorai-query"],"patternName":"sorai/posts-list","name":"<?php esc_html_x( 'List of posts, 1 column', 'Pattern name.', 'sorai' ); ?>"},"align":"wide","layout":{"type":"default"}} -->
+<!-- wp:query {"query":{"perPage":1,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"only","inherit":false},"metadata":{"categories":["sorai-post"],"patternName":"sorai/posts-list","name":"<?php esc_html_x( 'List of posts, 1 column', 'Pattern name.', 'sorai' ); ?>"},"align":"wide","layout":{"type":"default"}} -->
 <div class="wp-block-query alignwide">
 	<!-- wp:post-template -->
 	<!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|20","left":"var:preset|spacing|20"}}}} -->

@@ -2,7 +2,7 @@
 /**
  * Title: Grid of posts, 2 columns
  * Slug: sorai/posts-grid-2-columns
- * Categories: sorai-query
+ * Categories: sorai-post
  * Block Types: core/query
  * Description: A grid of posts, 2 columns.
  */
