@@ -9,7 +9,7 @@
 <!-- wp:query {"query":{"perPage":1,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"only","inherit":false},"metadata":{"categories":["sorai-post"],"patternName":"sorai/posts-list","name":"<?php esc_html_x( 'List of posts, 1 column', 'Pattern name.', 'sorai' ); ?>"},"align":"wide","layout":{"type":"default"}} -->
 <div class="wp-block-query alignwide">
 	<!-- wp:post-template -->
-	<!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|20","left":"var:preset|spacing|20"}}}} -->
+	<!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|30","left":"var:preset|spacing|30"}}}} -->
 	<div class="wp-block-columns">
 		<!-- wp:column {"verticalAlignment":"center"} -->
 		<div class="wp-block-column is-vertically-aligned-center">
@@ -21,7 +21,7 @@
 		<div class="wp-block-column is-vertically-aligned-center">
 			<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"constrained"}} -->
 			<div class="wp-block-group">
-				<!-- wp:post-title {"isLink":true,"fontSize":"xx-large"} /-->
+				<!-- wp:post-title {"isLink":true,"fontSize":"x-large"} /-->
 
 				<!-- wp:post-excerpt /-->
 
