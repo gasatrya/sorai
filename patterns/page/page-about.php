@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: About
- * Slug: twentytwentyfour/page-about
+ * Slug: sorai/page-about
  * Categories: sorai-page
  * Keywords: starter
  * Block Types: core/post-content
