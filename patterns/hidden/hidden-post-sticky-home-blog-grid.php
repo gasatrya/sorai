@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Sticky post for home blogging
- * Slug: sorai/hidden-post-sticky-home-blogging
+ * Slug: sorai/hidden-post-sticky-home-blog-grid
  * Inserter: no
  */
 ?>

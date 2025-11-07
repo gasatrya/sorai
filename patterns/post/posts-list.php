@@ -1,40 +1,33 @@
 <?php
 /**
- * Title: List of posts, 1 column
+ * Title: List of posts, default
  * Slug: sorai/posts-list
  * Categories: sorai-post
  * Block Types: core/query
- * Description: A list of posts with a featured image, title, and excerpt.
+ * Description: A list of posts with a title, and excerpt.
  */
 ?>
 
-<!-- wp:query {"query":{"perPage":6,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true},"align":"wide","layout":{"type":"default"}} -->
-<div class="wp-block-query alignwide">
-	<!-- wp:post-template -->
-	<!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|30","left":"var:preset|spacing|30"}}}} -->
-	<div class="wp-block-columns">
-		<!-- wp:column {"verticalAlignment":"center"} -->
-		<div class="wp-block-column is-vertically-aligned-center">
-			<!-- wp:post-featured-image {"isLink":true,"aspectRatio":"4/3","sizeSlug":"large","style":{"shadow":"var:preset|shadow|md"}} /-->
-		</div>
-		<!-- /wp:column -->
+<!-- wp:query {"query":{"perPage":10,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true,"taxQuery":null,"parents":[],"format":[]}} -->
+<div class="wp-block-query">
+	<!-- wp:post-template {"style":{"spacing":{"blockGap":"var:preset|spacing|40"}}} -->
 
-		<!-- wp:column {"verticalAlignment":"center"} -->
-		<div class="wp-block-column is-vertically-aligned-center">
-			<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"constrained"}} -->
-			<div class="wp-block-group">
-				<!-- wp:post-title {"isLink":true,"fontSize":"x-large"} /-->
+	<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"constrained"}} -->
+	<div class="wp-block-group">
+		<!-- wp:post-title {"isLink":true,"fontSize":"x-large"} /-->
 
-				<!-- wp:post-excerpt /-->
-
-				<!-- wp:template-part {"slug":"post-meta"} /-->
-			</div>
-			<!-- /wp:group -->
-		</div>
-		<!-- /wp:column -->
+		<!-- wp:template-part {"slug":"post-meta"} /-->
 	</div>
-	<!-- /wp:columns -->
+	<!-- /wp:group -->
+
+	<!-- wp:post-excerpt /-->
+
+	<!-- wp:read-more /-->
 	<!-- /wp:post-template -->
+
+	<!-- wp:spacer {"height":"var:preset|spacing|10"} -->
+	<div style="height: var(--wp--preset--spacing--10)" aria-hidden="true" class="wp-block-spacer"></div>
+	<!-- /wp:spacer -->
 
 	<!-- wp:query-pagination {"paginationArrow":"arrow","layout":{"type":"flex","justifyContent":"space-between"}} -->
 	<!-- wp:query-pagination-previous /-->

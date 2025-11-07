@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Sticky post for home blogging alternative
- * Slug: sorai/hidden-post-sticky-home-blogging-alt
+ * Slug: sorai/hidden-post-sticky-home-blog-alt
  * Inserter: no
  */
 ?>
@@ -13,7 +13,7 @@
 	<div class="wp-block-columns">
 		<!-- wp:column {"verticalAlignment":"center"} -->
 		<div class="wp-block-column is-vertically-aligned-center">
-			<!-- wp:post-featured-image {"isLink":true,"sizeSlug":"large","style":{"shadow":"var:preset|shadow|md"}} /-->
+			<!-- wp:post-featured-image {"isLink":true,"aspectRatio":"4/3","sizeSlug":"large","style":{"shadow":"var:preset|shadow|md"}} /-->
 		</div>
 		<!-- /wp:column -->
 

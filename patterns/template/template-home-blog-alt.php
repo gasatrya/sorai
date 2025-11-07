@@ -1,14 +1,14 @@
 <?php
 /**
- * Title: Blogging home alternative
- * Slug: sorai/template-home-blogging-alt
- * Template Types: front-page, index, home
+ * Title: Blogging home alternative template
+ * Slug: sorai/template-home-blog-alt
+ * Template Types: index, home
  * Viewport width: 1400
  * Inserter: no
  */
 ?>
 
-<!-- wp:template-part {"slug":"header","area":"header"} /-->
+<!-- wp:template-part {"slug":"header-cta","area":"header"} /-->
 
 <!-- wp:spacer {"height":"var:preset|spacing|5"} -->
 <div style="height:var(--wp--preset--spacing--5)" aria-hidden="true" class="wp-block-spacer"></div>
@@ -58,7 +58,7 @@
 
 		<!-- wp:column {"width":"80%"} -->
 		<div class="wp-block-column" style="flex-basis:80%">
-			<!-- wp:pattern {"slug":"sorai/hidden-post-sticky-home-blogging-alt"} /-->
+			<!-- wp:pattern {"slug":"sorai/hidden-post-sticky-home-blog-alt"} /-->
 
 			<!-- wp:separator {"align":"wide","className":"is-style-default","style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}}} -->
 			<hr class="wp-block-separator alignwide has-alpha-channel-opacity is-style-default"
