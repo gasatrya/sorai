@@ -12,7 +12,7 @@
 <div class="wp-block-query">
 	<!-- wp:post-template {"style":{"spacing":{"blockGap":"var:preset|spacing|40"}}} -->
 
-	<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"constrained"}} -->
+	<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}}} -->
 	<div class="wp-block-group">
 		<!-- wp:post-title {"isLink":true,"fontSize":"x-large"} /-->
 
