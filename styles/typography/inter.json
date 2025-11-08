@@ -28,7 +28,6 @@
       "fontFamily": "var:preset|font-family|inter",
       "fontSize": "var:preset|font-size|normal",
       "fontWeight": "400",
-      "lineHeight": "1.6",
       "fontStyle": "normal"
     },
     "elements": {

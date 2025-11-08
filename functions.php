@@ -73,7 +73,20 @@ if ( ! function_exists( 'sorai_block_styles' ) ) :
 					font-size: var(--wp--preset--font-size--normal);
 					margin-bottom: var(--wp--preset--spacing--20);
 				}
-				',
+				'
+			)
+		);
+
+		register_block_style(
+			'core/heading',
+			array(
+				'name' => 'widget',
+				'label' => __( 'Widget', 'sorai' ),
+				'inline_style' => '
+				.is-style-widget {
+					font-size: var(--wp--preset--font-size--normal);
+				}
+				'
 			)
 		);
 
