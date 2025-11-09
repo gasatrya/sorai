@@ -8,8 +8,8 @@
  */
 ?>
 
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}},"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"contrast","textColor":"base","layout":{"type":"constrained"}} -->
-<div class="wp-block-group has-base-color has-contrast-background-color has-text-color has-background has-link-color"
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}},"backgroundColor":"secondary","textColor":"contrast","layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-contrast-color has-secondary-background-color has-text-color has-background"
 	style="padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)">
 	<!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
 	<div class="wp-block-group alignwide">
@@ -21,9 +21,9 @@
 				<div class="wp-block-group">
 					<!-- wp:site-logo {"width":20,"shouldSyncIcon":true,"style":{"layout":{"selfStretch":"fit","flexSize":null}}} /-->
 
-					<!-- wp:site-title {"level":0,"style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"textColor":"base"} /-->
+					<!-- wp:site-title {"level":0} /-->
 
-					<!-- wp:site-tagline {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-base-muted"}}}},"textColor":"base-muted"} /-->
+					<!-- wp:site-tagline {"style":{"elements":{"link":{"color":{"text":"var:preset|color|muted"}}}},"textColor":"muted"} /-->
 				</div>
 				<!-- /wp:group -->
 			</div>
@@ -39,13 +39,13 @@
 				<div class="wp-block-group">
 					<!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
 					<div class="wp-block-group">
-						<!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"textColor":"base","fontSize":"normal"} -->
-						<h3 class="wp-block-heading has-base-color has-text-color has-link-color has-normal-font-size">
+						<!-- wp:heading {"level":3,"className":"is-style-widget"} -->
+						<h3 class="wp-block-heading is-style-widget">
 							<?php esc_html_e( 'About', 'sorai' ); ?>
 						</h3>
 						<!-- /wp:heading -->
 
-						<!-- wp:navigation {"textColor":"base-muted","overlayMenu":"never","style":{"spacing":{"blockGap":"var:preset|spacing|5"}},"layout":{"type":"flex","orientation":"vertical"},"ariaLabel":"<?php esc_attr_e( 'About', 'sorai' ); ?>"} -->
+						<!-- wp:navigation {"textColor":"muted","overlayMenu":"never","style":{"spacing":{"blockGap":"var:preset|spacing|5"}},"layout":{"type":"flex","orientation":"vertical"},"ariaLabel":"<?php esc_attr_e( 'About', 'sorai' ); ?>"} -->
 						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'About Us', 'sorai' ); ?>","url":"#"} /-->
 						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'History', 'sorai' ); ?>","url":"#"} /-->
 						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Careers', 'sorai' ); ?>","url":"#"} /-->
@@ -55,13 +55,13 @@
 
 					<!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
 					<div class="wp-block-group">
-						<!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"textColor":"base","fontSize":"normal"} -->
-						<h3 class="wp-block-heading has-base-color has-text-color has-link-color has-normal-font-size">
+						<!-- wp:heading {"level":3,"className":"is-style-widget"} -->
+						<h3 class="wp-block-heading is-style-widget">
 							<?php esc_html_e( 'Social', 'sorai' ); ?>
 						</h3>
 						<!-- /wp:heading -->
 
-						<!-- wp:navigation {"textColor":"base-muted","overlayMenu":"never","style":{"spacing":{"blockGap":"var:preset|spacing|5"}},"layout":{"type":"flex","orientation":"vertical"},"ariaLabel":"<?php esc_attr_e( 'Social', 'sorai' ); ?>"} -->
+						<!-- wp:navigation {"textColor":"muted","overlayMenu":"never","style":{"spacing":{"blockGap":"var:preset|spacing|5"}},"layout":{"type":"flex","orientation":"vertical"},"ariaLabel":"<?php esc_attr_e( 'Social', 'sorai' ); ?>"} -->
 						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Facebook', 'sorai' ); ?>","url":"#"} /-->
 						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Instagram', 'sorai' ); ?>","url":"#"} /-->
 						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Twitter/X', 'sorai' ); ?>","url":"#"} /-->
@@ -71,13 +71,13 @@
 
 					<!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
 					<div class="wp-block-group">
-						<!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"textColor":"base","fontSize":"normal"} -->
-						<h3 class="wp-block-heading has-base-color has-text-color has-link-color has-normal-font-size">
+						<!-- wp:heading {"level":3,"className":"is-style-widget"} -->
+						<h3 class="wp-block-heading is-style-widget">
 							<?php esc_html_e( 'Privacy', 'sorai' ); ?>
 						</h3>
 						<!-- /wp:heading -->
 
-						<!-- wp:navigation {"textColor":"base-muted","overlayMenu":"never","style":{"spacing":{"blockGap":"var:preset|spacing|5"}},"layout":{"type":"flex","orientation":"vertical"},"ariaLabel":"<?php esc_attr_e( 'Privacy', 'sorai' ); ?>"} -->
+						<!-- wp:navigation {"textColor":"muted","overlayMenu":"never","style":{"spacing":{"blockGap":"var:preset|spacing|5"}},"layout":{"type":"flex","orientation":"vertical"},"ariaLabel":"<?php esc_attr_e( 'Privacy', 'sorai' ); ?>"} -->
 						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Privacy Policy', 'sorai' ); ?>","url":"#"} /-->
 						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Terms & Conditions', 'sorai' ); ?>","url":"#"} /-->
 						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Contact Us', 'sorai' ); ?>","url":"#"} /-->
@@ -106,7 +106,7 @@
 					/* Translators: Designed with WordPress by Ga Satrya */
 					esc_html__( 'Designed with %1$s by %2$s', 'sorai' ),
 					$wordpress_link,
-					'<a href="https://kilau.studio/" rel="nofollow">Ga Satrya</a>'
+					'<a href="https://nurrin.studio/" rel="nofollow">Ga Satrya</a>'
 				);
 				?>
 			</p>

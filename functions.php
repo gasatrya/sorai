@@ -64,7 +64,7 @@ if ( ! function_exists( 'sorai_block_styles' ) ) :
 				'label' => __( 'With border', 'sorai' ),
 				'inline_style' => '
 				.is-style-with-border {
-					border-top: 0.1rem solid var(--wp--preset--color--base-muted);
+					border-top: 0.1rem solid var(--wp--preset--color--border);
 					padding-top: var(--wp--preset--spacing--10);
 					font-weight: 600;
 				}

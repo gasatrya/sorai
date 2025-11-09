@@ -6,13 +6,18 @@
  */
 ?>
 
-<!-- wp:heading {"level":1} -->
-<h1 class="wp-block-heading" id="page-not-found">
-	<?php echo esc_html_x( 'Page Not Found', 'Heading for a webpage that is not found', 'sorai' ); ?>
-</h1>
-<!-- /wp:heading -->
-<!-- wp:paragraph -->
-<p>
-	<?php echo esc_html_x( 'The page you are looking for does not exist, or it has been moved. Please try searching using the form below.', 'Message to convey that a webpage could not be found', 'sorai' ); ?>
-</p>
-<!-- /wp:paragraph -->
+<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|5"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group">
+	<!-- wp:heading {"fontSize":"xxxx-large"} -->
+	<h2 class="wp-block-heading has-xxxx-large-font-size" id="page-not-found">
+		<?php esc_html_e( 'Page Not Found', 'sorai' ); ?>
+	</h2>
+	<!-- /wp:heading -->
+
+	<!-- wp:paragraph {"textColor":"muted"} -->
+	<p class="has-muted-color has-text-color">
+		<?php esc_html_e( 'The page you are looking for does not exist, or it has been moved. Please try searching using the form below.', 'sorai' ); ?>
+	</p>
+	<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->

@@ -16,10 +16,10 @@ Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, feature
 
 ::selection {
   background: var(--wp--preset--color--contrast);
-  color: var(--wp--preset--color--base-muted, #ffffff);
+  color: var(--wp--preset--color--base, #ffffff);
 }
 
 ::-moz-selection {
   background: var(--wp--preset--color--contrast);
-  color: var(--wp--preset--color--base-muted, #ffffff);
+  color: var(--wp--preset--color--base, #ffffff);
 }

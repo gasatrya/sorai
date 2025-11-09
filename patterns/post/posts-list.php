@@ -20,9 +20,8 @@
 	</div>
 	<!-- /wp:group -->
 
-	<!-- wp:post-excerpt /-->
+	<!-- wp:post-excerpt {"moreText":"<?php esc_html_e( 'Read more', 'sorai' ); ?>"} /-->
 
-	<!-- wp:read-more /-->
 	<!-- /wp:post-template -->
 
 	<!-- wp:spacer {"height":"var:preset|spacing|10"} -->

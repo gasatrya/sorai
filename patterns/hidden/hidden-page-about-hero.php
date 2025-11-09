@@ -6,15 +6,15 @@
  */
 ?>
 
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|30","right":"var:preset|spacing|30"}}},"backgroundColor":"base-muted","layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull has-base-muted-background-color has-background"
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|30","right":"var:preset|spacing|30"}}},"backgroundColor":"secondary","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-secondary-background-color has-background"
 	style="padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--30)">
 	<!-- wp:columns {"verticalAlignment":"bottom","align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|40","left":"var:preset|spacing|40"}}}} -->
 	<div class="wp-block-columns alignwide are-vertically-aligned-bottom">
 		<!-- wp:column {"verticalAlignment":"bottom"} -->
 		<div class="wp-block-column is-vertically-aligned-bottom">
-			<!-- wp:heading {"style":{"typography":{"fontStyle":"normal","fontWeight":"400"}},"textColor":"contrast-muted","fontSize":"normal"} -->
-			<h2 class="wp-block-heading has-contrast-muted-color has-text-color has-normal-font-size"
+			<!-- wp:heading {"style":{"typography":{"fontStyle":"normal","fontWeight":"400"}},"textColor":"muted","fontSize":"normal"} -->
+			<h2 class="wp-block-heading has-muted-color has-text-color has-normal-font-size"
 				style="font-style:normal;font-weight:400">
 				<?php esc_html_e( 'Design, code, and clarity for the web.', 'sorai' ); ?>
 			</h2>
