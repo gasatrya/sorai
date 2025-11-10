@@ -5,11 +5,23 @@
       "defaultDuotone": false,
       "defaultGradients": false,
       "defaultPalette": false,
+      "gradients": [
+        {
+          "slug": "gradient-1",
+          "gradient": "linear-gradient(to bottom, rgb(244 239 233 / 1) 0%, rgb(255 255 255 / 1) 100%)",
+          "name": "Vertical soft brown to white"
+        }
+      ],
       "duotone": [
         {
-          "colors": ["#262626", "#ffffff"],
+          "colors": ["rgb(30 25 40 / 1)", "rgb(255 255 255 / 1)"],
           "slug": "duotone-1",
           "name": "Black and white"
+        },
+        {
+          "colors": ["rgb(107 76 65 / 1)", "rgb(255 255 255 / 1)"],
+          "slug": "duotone-2",
+          "name": "Golden Brown and White"
         }
       ],
       "palette": [
@@ -730,7 +742,7 @@
         }
       },
       "core/post-comments-form": {
-        "css": "& textarea, input[type='text'], input[type='email'], input[type='url'] { border: 1px solid var(--wp--preset--color--border) !important; background: var(--wp--preset--color--secondary); padding: 0.5em; color: var(--wp--preset--color--contrast) !important; font-size: var(--wp--preset--font-size--tiny) } & textarea:focus, input[type='text']:focus, input[type='email']:focus, input[type='url']:focus { background-color: var(--wp--preset--color--base) } & label { font-weight: 550; font-size: var(--wp--preset--font-size--tiny); } & .comment-notes, .logged-in-as { font-size: var(--wp--preset--font-size--tiny); color: var(--wp--preset--color--muted); margin-top: 0.25rem; } & #wp-comment-cookies-consent { margin-top: .25em !important; }"
+        "css": "& textarea, input[type='text'], input[type='email'], input[type='url'] { border: 1px solid var(--wp--preset--color--border) !important; background: var(--wp--preset--color--secondary); padding: 0.5em; color: var(--wp--preset--color--contrast) !important; font-size: var(--wp--preset--font-size--tiny); border-radius: 0.25rem } & textarea:focus, input[type='text']:focus, input[type='email']:focus, input[type='url']:focus { background-color: var(--wp--preset--color--base) } & label { font-weight: 550; font-size: var(--wp--preset--font-size--tiny); } & .comment-notes, .logged-in-as { font-size: var(--wp--preset--font-size--tiny); color: var(--wp--preset--color--muted); margin-top: 0.25rem; } & #wp-comment-cookies-consent { margin-top: .25em !important; }"
       },
       "core/comments-pagination": {
         "typography": {
@@ -897,6 +909,12 @@
         "border": {
           "radius": "50%"
         }
+      },
+      "core/image": {
+        "border": {
+          "radius": "0.25rem"
+        },
+        "shadow": "var:preset|shadow|sm"
       }
     },
     "spacing": {
