@@ -21,7 +21,7 @@
 				<div class="wp-block-group">
 					<!-- wp:site-logo {"width":20,"shouldSyncIcon":true,"style":{"layout":{"selfStretch":"fit","flexSize":null}}} /-->
 
-					<!-- wp:site-title {"level":0} /-->
+					<!-- wp:site-title {"level":0,"style":{"typography":{"fontStyle":"normal","fontWeight":"700"}}} /-->
 
 					<!-- wp:site-tagline {"style":{"elements":{"link":{"color":{"text":"var:preset|color|muted"}}}},"textColor":"muted"} /-->
 				</div>
@@ -91,11 +91,11 @@
 		</div>
 		<!-- /wp:columns -->
 
-		<!-- wp:spacer {"height":"var:preset|spacing|30"} -->
-		<div style="height: var(--wp--preset--spacing--30)" aria-hidden="true" class="wp-block-spacer"></div>
+		<!-- wp:spacer {"height":"var:preset|spacing|40"} -->
+		<div style="height:var(--wp--preset--spacing--40)" aria-hidden="true" class="wp-block-spacer"></div>
 		<!-- /wp:spacer -->
 
-		<!-- wp:group {"align":"wide"} -->
+		<!-- wp:group {"align":"wide","layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
 		<div class="wp-block-group alignwide">
 			<!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"400"}},"fontSize":"tiny"} -->
 			<p class="has-tiny-font-size" style="font-style: normal; font-weight: 400">
@@ -111,6 +111,16 @@
 				?>
 			</p>
 			<!-- /wp:paragraph -->
+
+			<!-- wp:social-links {"openInNewTab":true,"size":"has-small-icon-size","className":"is-style-outline","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|5","left":"var:preset|spacing|5"}}},"layout":{"type":"flex","justifyContent":"left"}} -->
+			<ul class="wp-block-social-links has-small-icon-size is-style-outline">
+				<!-- wp:social-link {"url":"#","service":"facebook"} /-->
+
+				<!-- wp:social-link {"url":"#","service":"linkedin"} /-->
+
+				<!-- wp:social-link {"url":"#","service":"x"} /-->
+			</ul>
+			<!-- /wp:social-links -->
 		</div>
 		<!-- /wp:group -->
 	</div>

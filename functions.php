@@ -111,6 +111,21 @@ if ( ! function_exists( 'sorai_block_styles' ) ) :
 				}',
 			)
 		);
+
+		register_block_style(
+			'core/social-links',
+			array(
+				'name' => 'outline',
+				'label' => __( 'Outline', 'sorai' ),
+				'inline_style' => '
+				.is-style-outline li.wp-block-social-link {
+					background-color: transparent;
+					border: 1px solid currentColor;
+					color: currentColor;
+				}
+				'
+			)
+		);
 	}
 endif;
 add_action( 'init', 'sorai_block_styles' );

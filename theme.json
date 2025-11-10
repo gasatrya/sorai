@@ -347,7 +347,7 @@
       "fontFamily": "var:preset|font-family|manrope",
       "fontSize": "var:preset|font-size|normal",
       "fontWeight": "450",
-      "lineHeight": "1.6",
+      "lineHeight": "1.7",
       "fontStyle": "normal",
       "letterSpacing": "-.014em"
     },
@@ -397,7 +397,7 @@
           "text": "var:preset|color|contrast"
         },
         "typography": {
-          "fontWeight": "600",
+          "fontWeight": "700",
           "lineHeight": "1.35",
           "letterSpacing": "-0.025em"
         }
@@ -409,11 +409,13 @@
         ":hover": {
           "color": {
             "text": "var:preset|color|contrast"
+          },
+          "typography": {
+            "textDecoration": "none"
           }
         },
         "typography": {
-          "fontWeight": "550",
-          "textDecoration": "none"
+          "fontWeight": "500"
         },
         "css": "transition: color 200ms ease-in-out;"
       },
@@ -603,11 +605,6 @@
         },
         "elements": {
           "link": {
-            ":hover": {
-              "typography": {
-                "textDecoration": "underline"
-              }
-            },
             "typography": {
               "textDecoration": "none"
             }

@@ -15,11 +15,11 @@ Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, feature
 */
 
 ::selection {
-  background: var(--wp--preset--color--contrast);
+  background: var(--wp--preset--color--primary);
   color: var(--wp--preset--color--base, #ffffff);
 }
 
 ::-moz-selection {
-  background: var(--wp--preset--color--contrast);
+  background: var(--wp--preset--color--primary);
   color: var(--wp--preset--color--base, #ffffff);
 }
