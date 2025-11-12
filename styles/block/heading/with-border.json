@@ -1,0 +1,28 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "title": "With Border",
+  "slug": "with-border",
+  "blockTypes": ["core/heading"],
+  "styles": {
+    "typography": {
+      "fontSize": "var:preset|font-size|normal",
+      "fontWeight": "700"
+    },
+    "spacing": {
+      "margin": {
+        "bottom": "var:preset|spacing|20"
+      },
+      "padding": {
+        "top": "var:preset|spacing|10"
+      }
+    },
+    "border": {
+      "top": {
+        "width": "2px",
+        "style": "solid",
+        "color": "var:preset|color|border"
+      }
+    }
+  }
+}

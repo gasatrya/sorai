@@ -1,0 +1,29 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "title": "Outline Large",
+  "slug": "outline-large",
+  "blockTypes": ["core/button"],
+  "styles": {
+    "color": {
+      "background": "transparent",
+      "text": "var:preset|color|primary"
+    },
+    "border": {
+      "width": "2px",
+      "style": "solid",
+      "color": "var:preset|color|primary"
+    },
+    "typography": {
+      "fontSize": "var:preset|font-size|small"
+    },
+    "spacing": {
+      "padding": {
+        "bottom": "var:preset|spacing|5",
+        "left": "var:preset|spacing|20",
+        "right": "var:preset|spacing|20",
+        "top": "var:preset|spacing|5"
+      }
+    }
+  }
+}

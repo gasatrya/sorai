@@ -1,0 +1,10 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "title": "Outline",
+  "slug": "outline",
+  "blockTypes": ["core/social-links"],
+  "styles": {
+    "css": "& .wp-block-social-link {background-color: transparent;border: 1px solid currentColor;color: currentColor;}"
+  }
+}

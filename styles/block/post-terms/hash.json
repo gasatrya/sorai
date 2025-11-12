@@ -1,0 +1,17 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "title": "Hash",
+  "slug": "hash",
+  "blockTypes": ["core/post-terms"],
+  "styles": {
+    "css": "{display: flex; gap: 0.25rem;} & a::before,span:not([class], [data-rich-text-placeholder])::before { content: '#'; }",
+    "elements": {
+      "link": {
+        "typography": {
+          "textDecoration": "none"
+        }
+      }
+    }
+  }
+}
