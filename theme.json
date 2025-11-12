@@ -485,6 +485,7 @@
         },
         "typography": {
           "fontSize": "var:preset|font-size|medium",
+          "fontWeight": "700",
           "letterSpacing": "-0.05em"
         }
       },

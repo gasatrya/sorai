@@ -21,7 +21,7 @@
 				<div class="wp-block-group">
 					<!-- wp:site-logo {"width":20,"shouldSyncIcon":true,"style":{"layout":{"selfStretch":"fit","flexSize":null}}} /-->
 
-					<!-- wp:site-title {"level":0,"style":{"typography":{"fontStyle":"normal","fontWeight":"700"}}} /-->
+					<!-- wp:site-title {"level":0} /-->
 
 					<!-- wp:site-tagline {"style":{"elements":{"link":{"color":{"text":"var:preset|color|muted"}}}},"textColor":"muted"} /-->
 				</div>
