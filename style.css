@@ -14,6 +14,15 @@ Text Domain: sorai
 Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments, translation-ready, wide-blocks, block-styles, style-variations, accessibility-ready, blog, portfolio
 */
 
+/* 
+Gallery gap default
+issue: https://github.com/WordPress/gutenberg/issues/60505
+ */
+:root {
+  --wp--style--gallery-gap-default: var(--wp--preset--spacing--10);
+}
+
+/* Text selection colors */
 ::selection {
   background: var(--wp--preset--color--secondary);
   color: var(--wp--preset--color--base, #ffffff);
@@ -22,4 +31,25 @@ Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, feature
 ::-moz-selection {
   background: var(--wp--preset--color--secondary);
   color: var(--wp--preset--color--base, #ffffff);
+}
+
+/* Focus outline for better accessibility */
+:where(.wp-site-blocks *:focus) {
+  outline-width: 2px;
+  outline-style: solid;
+}
+
+/* Set strong font weight for better readability */
+strong {
+  font-weight: 650;
+}
+
+/* Spacing adjustments for post content */
+.wp-block-post-content .wp-block-heading + * {
+  margin-block-start: var(--wp--preset--spacing--10);
+}
+
+/* Remove default margin for footer template part */
+footer.wp-block-template-part {
+  margin-block-start: 0;
 }
