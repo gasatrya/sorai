@@ -5,6 +5,7 @@
   "slug": "outline",
   "blockTypes": ["core/button"],
   "styles": {
+    "css": "{transition: all 0.3s ease;} &:hover { background-color: var(--wp--preset--color--primary); color: var(--wp--preset--color--base); opacity: 1; }",
     "color": {
       "text": "var:preset|color|primary",
       "background": "transparent"

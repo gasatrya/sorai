@@ -1,0 +1,14 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "title": "Section",
+  "slug": "section",
+  "blockTypes": ["core/heading"],
+  "styles": {
+    "typography": {
+      "fontSize": "var:preset|font-size|xxxx-large",
+      "letterSpacing": "-0.05em",
+      "textAlign": "center"
+    }
+  }
+}

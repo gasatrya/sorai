@@ -32,15 +32,16 @@
 
 			<!-- wp:buttons -->
 			<div class="wp-block-buttons">
-				<!-- wp:button {"className":"is-style-fill"} -->
-				<div class="wp-block-button is-style-fill">
+				<!-- wp:button {"className":"is-style-outline"} -->
+				<div class="wp-block-button is-style-outline">
 					<a class="wp-block-button__link wp-element-button" href="#">
-						<?php esc_html_e( 'Book Today', 'sorai' ); ?>
+						<?php esc_html_e( 'Download for Free', 'sorai' ); ?>
 					</a>
 				</div>
 				<!-- /wp:button -->
 			</div>
 			<!-- /wp:buttons -->
+
 		</div>
 		<!-- /wp:group -->
 	</div>

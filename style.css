@@ -17,7 +17,7 @@ Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, feature
 /* 
 Gallery gap default
 issue: https://github.com/WordPress/gutenberg/issues/60505
- */
+*/
 :root {
   --wp--style--gallery-gap-default: var(--wp--preset--spacing--10);
 }
@@ -25,12 +25,12 @@ issue: https://github.com/WordPress/gutenberg/issues/60505
 /* Text selection colors */
 ::selection {
   background: var(--wp--preset--color--secondary);
-  color: var(--wp--preset--color--base, #ffffff);
+  color: var(--wp--preset--color--contrast);
 }
 
 ::-moz-selection {
   background: var(--wp--preset--color--secondary);
-  color: var(--wp--preset--color--base, #ffffff);
+  color: var(--wp--preset--color--contrast);
 }
 
 /* Focus outline for better accessibility */
