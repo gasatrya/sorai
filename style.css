@@ -45,7 +45,7 @@ strong {
 }
 
 /* Spacing adjustments for post content */
-.wp-block-post-content .wp-block-heading + * {
+.wp-block-post-content:not(.alignfull) .wp-block-heading + * {
   margin-block-start: var(--wp--preset--spacing--10);
 }
 

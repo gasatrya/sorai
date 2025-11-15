@@ -21,7 +21,7 @@
       "top": {
         "width": "2px",
         "style": "solid",
-        "color": "var:preset|color|border"
+        "color": "var:preset|color|stroke"
       }
     }
   }
