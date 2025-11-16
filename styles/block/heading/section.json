@@ -6,8 +6,17 @@
   "blockTypes": ["core/heading"],
   "styles": {
     "typography": {
-      "fontSize": "var:preset|font-size|xxxx-large",
-      "letterSpacing": "-0.05em"
-    }
+      "fontSize": "var:preset|font-size|small",
+      "fontWeight": "700"
+    },
+    "color": {
+      "text": "var:preset|color|primary"
+    },
+    "spacing": {
+      "padding": {
+        "bottom": "var:preset|spacing|10"
+      }
+    },
+    "css": "&::after { content: ''; display: block; width: 40px; height: 2px; background-color: var(--wp--preset--color--primary); margin-top: 8px; border-radius: 2px; margin-left: auto; margin-right: auto;  }"
   }
 }

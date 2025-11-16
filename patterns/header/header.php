@@ -17,11 +17,9 @@
 	">
 		<!-- wp:group {"style":{"layout":{"selfStretch":"fit"},"spacing":{"blockGap":"var:preset|spacing|5"}},"layout":{"type":"flex"}} -->
 		<div class="wp-block-group">
-			<!-- wp:site-logo {"width":64} /-->
+			<!-- wp:site-logo {"width":35,"shouldSyncIcon":true} /-->
 
-			<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|5"},"layout":{"selfStretch":"fit"}}} -->
-			<div class="wp-block-group"><!-- wp:site-title /--></div>
-			<!-- /wp:group -->
+			<!-- wp:site-title /-->
 		</div>
 		<!-- /wp:group -->
 

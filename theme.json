@@ -347,7 +347,7 @@
       "fontFamily": "var:preset|font-family|manrope",
       "fontSize": "var:preset|font-size|normal",
       "fontWeight": "450",
-      "lineHeight": "1.7",
+      "lineHeight": "1.6",
       "fontStyle": "normal",
       "letterSpacing": "-.014em"
     },

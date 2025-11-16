@@ -15,7 +15,7 @@
 		style="padding-top:var(--wp--preset--spacing--10);padding-bottom:var(--wp--preset--spacing--10)">
 		<!-- wp:group {"style":{"layout":{"selfStretch":"fit"},"spacing":{"blockGap":"var:preset|spacing|5"}},"layout":{"type":"flex"}} -->
 		<div class="wp-block-group">
-			<!-- wp:site-logo {"width":64} /-->
+			<!-- wp:site-logo {"width":35,"shouldSyncIcon":true} /-->
 
 			<!-- wp:site-title /-->
 		</div>
