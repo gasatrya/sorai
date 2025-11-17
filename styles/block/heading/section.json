@@ -10,13 +10,13 @@
       "fontWeight": "700"
     },
     "color": {
-      "text": "var:preset|color|primary"
+      "text": "var:preset|color|muted"
     },
     "spacing": {
       "padding": {
         "bottom": "var:preset|spacing|10"
       }
     },
-    "css": "&::after { content: ''; display: block; width: 40px; height: 2px; background-color: var(--wp--preset--color--primary); margin-top: 8px; border-radius: 2px; margin-left: auto; margin-right: auto;  }"
+    "css": "&::after { content: ''; display: block; width: 40px; height: 2px; background-color: var(--wp--preset--color--muted); margin-top: 8px; border-radius: 2px; margin-left: auto; margin-right: auto;  }"
   }
 }
