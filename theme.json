@@ -426,7 +426,8 @@
         "typography": {
           "fontSize": "var:preset|font-size|tiny",
           "fontStyle": "normal",
-          "fontWeight": "600"
+          "fontWeight": "550",
+          "letterSpacing": "0"
         },
         "border": {
           "radius": "0.25rem"
