@@ -27,7 +27,7 @@
 					</div>
 					<!-- /wp:group -->
 
-					<!-- wp:site-tagline {"style":{"elements":{"link":{"color":{"text":"var:preset|color|muted"}}}},"textColor":"muted"} /-->
+					<!-- wp:site-tagline /-->
 				</div>
 				<!-- /wp:group -->
 			</div>
