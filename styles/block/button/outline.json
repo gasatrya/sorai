@@ -5,15 +5,15 @@
   "slug": "outline",
   "blockTypes": ["core/button"],
   "styles": {
-    "css": "{transition: all 0.3s ease;} &:hover { background-color: var(--wp--preset--color--contrast); color: var(--wp--preset--color--base); opacity: 1; }",
+    "css": "{transition: all 0.3s ease;} &:hover { background-color: inherit; color: inherit; opacity: 1; }",
     "color": {
-      "text": "var:preset|color|contrast",
+      "text": "currentColor",
       "background": "transparent"
     },
     "border": {
       "width": "2px",
       "style": "solid",
-      "color": "var:preset|color|contrast"
+      "color": "currentColor"
     },
     "spacing": {
       "padding": {

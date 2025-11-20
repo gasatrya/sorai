@@ -48,7 +48,7 @@
           "slug": "stroke"
         },
         {
-          "color": "rgb(107 76 65 / 1)",
+          "color": "rgb(133 88 73 / 1)",
           "name": "Primary",
           "slug": "primary"
         },
@@ -56,6 +56,11 @@
           "color": "rgb(244 239 233 / 1)",
           "name": "Secondary",
           "slug": "secondary"
+        },
+        {
+          "color": "rgb(73 118 133 / 1)",
+          "name": "Complementary",
+          "slug": "complementary"
         }
       ]
     },
@@ -391,9 +396,6 @@
         }
       },
       "heading": {
-        "color": {
-          "text": "var:preset|color|contrast"
-        },
         "typography": {
           "fontWeight": "550",
           "lineHeight": "1.35",

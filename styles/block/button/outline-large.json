@@ -7,12 +7,12 @@
   "styles": {
     "color": {
       "background": "transparent",
-      "text": "var:preset|color|primary"
+      "text": "currentColor"
     },
     "border": {
       "width": "2px",
       "style": "solid",
-      "color": "var:preset|color|primary"
+      "color": "currentColor"
     },
     "typography": {
       "fontSize": "var:preset|font-size|small"
