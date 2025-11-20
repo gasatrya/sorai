@@ -6,8 +6,8 @@
   "blockTypes": ["core/heading"],
   "styles": {
     "typography": {
-      "fontSize": "var:preset|font-size|small",
-      "fontWeight": "700"
+      "fontSize": "var:preset|font-size|tiny",
+      "fontWeight": "600"
     },
     "color": {
       "text": "var:preset|color|complementary"

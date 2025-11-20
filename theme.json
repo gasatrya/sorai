@@ -397,7 +397,7 @@
       },
       "heading": {
         "typography": {
-          "fontWeight": "550",
+          "fontWeight": "600",
           "lineHeight": "1.35",
           "letterSpacing": "-0.025em"
         }
