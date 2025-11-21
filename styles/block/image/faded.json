@@ -1,0 +1,10 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "title": "Faded",
+  "slug": "faded",
+  "blockTypes": ["core/image"],
+  "styles": {
+    "css": "& img {opacity: 0.5; transition: opacity 0.3s ease;} &:hover img {opacity: 1;}"
+  }
+}

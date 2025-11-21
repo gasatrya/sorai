@@ -895,8 +895,7 @@
       "core/image": {
         "border": {
           "radius": "0.25rem"
-        },
-        "shadow": "var:preset|shadow|sm"
+        }
       }
     },
     "spacing": {
